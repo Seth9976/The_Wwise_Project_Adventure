@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5150FD4F-E7AC-4F59-9BF0-E07D1F06E174}" SchemaVersion="85">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{5150FD4F-E7AC-4F59-9BF0-E07D1F06E174}" PersistMode="Standalone">
+			<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Bay Area Sound, Inc.
+With the help of Damian Kastbauer for Lost Chocolate Lab.
+(c) 2012 Bay Area Sound, Inc.
+www.basound.com
+
+The Audio Content contained in this file is the property of Bay Area Sound, Inc.
+Your sole right with regard to this Audio Content is to listen to the Audio 
+Content as part of this Sample Project.  This Audio Content cannot be used
+or modified for a commercial purpose nor for public demonstration.</Comment>
+			<ChildrenList>
+				<SoundcasterSession Name="Soundcaster Session" ID="{885F898D-EDBA-4EDC-AAE3-02577A99C05D}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Ambient_day_night" ID="{B74867CF-0D1A-4763-9653-1D1FABCA96F1}" WorkUnitID="{3AE0B262-D812-41EC-9F52-A61D7B80BDC5}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Footstep" ID="{C9FD3C73-255A-47E5-BFA2-C3D1514AE81F}" WorkUnitID="{D6D4F52F-79B5-434A-AD13-672EE62AB7CC}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Music_System" ID="{7ADFE735-CFF7-4FB6-AD0E-95505AC5D57D}" WorkUnitID="{04F86131-49AD-4329-98BB-B2DD0F96BDD3}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_Ambient_day_night" ID="{F98B700E-FF10-4395-847C-0BA2C160AFDD}" WorkUnitID="{3AE0B262-D812-41EC-9F52-A61D7B80BDC5}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_magic_blast_fire_distance_blend" ID="{0D5DF06F-2DF6-48CA-99B5-5004C3FA99AA}" WorkUnitID="{BA01ED5B-0803-4F3E-BDD3-1C6A37246B2F}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_Music_System" ID="{A4B8F7DD-C386-4802-923E-93E8AFF8823F}" WorkUnitID="{04F86131-49AD-4329-98BB-B2DD0F96BDD3}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_magic_blast_fire_blend" ID="{93F38D56-9A09-4243-A38E-8D7819014897}" WorkUnitID="{BA01ED5B-0803-4F3E-BDD3-1C6A37246B2F}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Impact_Weapon_Type" ID="{B31BECE7-EFA3-41BB-98AF-C6D8871C22B6}" WorkUnitID="{7D23A1FA-0A50-41A7-83AE-882CBE337EFA}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Swing_Weapon_Type" ID="{32B411EB-AAC0-45B9-AAD2-A23B0006DDAE}" WorkUnitID="{7D23A1FA-0A50-41A7-83AE-882CBE337EFA}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Magic_Volume" ID="{6D7CE0E0-B004-43E6-A075-5D2BE444383C}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Time_of_Day" ID="{A2DD7A69-3307-4418-9A97-F2621CFDBF8F}"/>
+							<Value>10.2</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Distance_to_Player" ID="{CEC3FD56-5B7C-44AF-B635-5C3A0C36825E}"/>
+							<Value>3.57459625166074E-315</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Danger" ID="{08F00D7E-BB3D-4EEB-B80C-45CE51C444D8}"/>
+							<Value>100</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="action" ID="{24CBC365-E7A0-4E8C-A4C2-BA1D246C02C3}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Axe" ID="{BC4F34E7-7386-4380-AC5C-24DE2EEB9577}"/>
+						<CurrentSwitchRef Name="Dirt" ID="{DA022E47-ED1D-49CA-AC65-3259C3F1EDC9}"/>
+						<CurrentSwitchRef Name="Grue" ID="{BC5CDB08-307E-4E00-8989-C0F94AB207A9}"/>
+						<CurrentSwitchRef Name="Run" ID="{325E9872-AF44-4C6F-8782-EB12750E5DBF}"/>
+						<CurrentSwitchRef Name="ChainMail" ID="{2DB85BFA-68FC-4711-8DC3-2661639D4986}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="HDR Soundcaster Session" ID="{135BFEF1-7DA7-44CF-8586-A7289C4C3217}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Ambient_day_night" ID="{B74867CF-0D1A-4763-9653-1D1FABCA96F1}" WorkUnitID="{3AE0B262-D812-41EC-9F52-A61D7B80BDC5}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Footstep" ID="{C9FD3C73-255A-47E5-BFA2-C3D1514AE81F}" WorkUnitID="{D6D4F52F-79B5-434A-AD13-672EE62AB7CC}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_Ambient_day_night" ID="{F98B700E-FF10-4395-847C-0BA2C160AFDD}" WorkUnitID="{3AE0B262-D812-41EC-9F52-A61D7B80BDC5}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Impact_Weapon_Type" ID="{1749950B-D5B0-40C6-9430-6F0D4F7A516E}" WorkUnitID="{AEC0B2B1-647F-4509-91DA-C6805759B4F6}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_magic_blast_fire_distance_blend" ID="{0D5DF06F-2DF6-48CA-99B5-5004C3FA99AA}" WorkUnitID="{BA01ED5B-0803-4F3E-BDD3-1C6A37246B2F}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Magic_Volume" ID="{6D7CE0E0-B004-43E6-A075-5D2BE444383C}"/>
+							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Time_of_Day" ID="{A2DD7A69-3307-4418-9A97-F2621CFDBF8F}"/>
+							<Value>12</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Distance_to_Player" ID="{CEC3FD56-5B7C-44AF-B635-5C3A0C36825E}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Danger" ID="{08F00D7E-BB3D-4EEB-B80C-45CE51C444D8}"/>
+							<Value>100</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="action" ID="{24CBC365-E7A0-4E8C-A4C2-BA1D246C02C3}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Axe" ID="{BC4F34E7-7386-4380-AC5C-24DE2EEB9577}"/>
+						<CurrentSwitchRef Name="Dirt" ID="{DA022E47-ED1D-49CA-AC65-3259C3F1EDC9}"/>
+						<CurrentSwitchRef Name="Grue" ID="{BC5CDB08-307E-4E00-8989-C0F94AB207A9}"/>
+						<CurrentSwitchRef Name="Run" ID="{325E9872-AF44-4C6F-8782-EB12750E5DBF}"/>
+						<CurrentSwitchRef Name="ChainMail" ID="{2DB85BFA-68FC-4711-8DC3-2661639D4986}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

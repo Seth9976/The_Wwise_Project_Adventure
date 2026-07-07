@@ -1,0 +1,43 @@
+{
+    "bundle": {
+        "id": "wwise-project-adventure.2017_2_10_6745",
+        "type": "wwise",
+        "name": "",
+        "tag": "",
+        "description": "",
+        "vendor": "",
+        "version": {
+            "year": 2017,
+            "major": 2,
+            "minor": "10",
+            "build": 6745
+        },
+        "labels": [],
+        "links": [],
+        "productDependentData": {},
+        "documentation": [],
+        "image": "",
+        "redistributables": [],
+        "eulas": [],
+        "groups": [],
+        "files": []
+    },
+    "targetDir": "E:\\The_Wwise_Project_Adventure_2017.2.10.6745",
+    "installType": "normal",
+    "installed": {
+        "groups": [
+            {
+                "id": "Packages",
+                "valueId": "WwiseProjectAdventure"
+            }
+        ],
+        "files": [
+            "WwiseProjectAdventure.tar.xz"
+        ],
+        "date": 1783305539604
+    },
+    "children": [],
+    "unpackedFiles": [
+        "images\\wwise-project-adventure.2017_2_10_6745.png"
+    ]
+}

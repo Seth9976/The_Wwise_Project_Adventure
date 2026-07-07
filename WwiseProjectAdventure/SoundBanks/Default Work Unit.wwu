@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A22BFD52-CAB4-469C-ACD0-5A88F0878FA9}" SchemaVersion="85">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{A22BFD52-CAB4-469C-ACD0-5A88F0878FA9}" PersistMode="Standalone">
+			<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Bay Area Sound, Inc.
+With the help of Damian Kastbauer for Lost Chocolate Lab.
+(c) 2012 Bay Area Sound, Inc.
+www.basound.com
+
+The Audio Content contained in this file is the property of Bay Area Sound, Inc.
+Your sole right with regard to this Audio Content is to listen to the Audio 
+Content as part of this Sample Project.  This Audio Content cannot be used
+or modified for a commercial purpose nor for public demonstration.</Comment>
+			<ChildrenList>
+				<SoundBank Name="General_Global" ID="{B5ABEE2A-9BEE-4FF9-A47C-A2DF0C03FB46}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Ambient" ID="{3AE0B262-D812-41EC-9F52-A61D7B80BDC5}" WorkUnitID="{3AE0B262-D812-41EC-9F52-A61D7B80BDC5}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Music" ID="{04F86131-49AD-4329-98BB-B2DD0F96BDD3}" WorkUnitID="{04F86131-49AD-4329-98BB-B2DD0F96BDD3}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Character" ID="{D6D4F52F-79B5-434A-AD13-672EE62AB7CC}" WorkUnitID="{D6D4F52F-79B5-434A-AD13-672EE62AB7CC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Combat" ID="{AEC0B2B1-647F-4509-91DA-C6805759B4F6}" WorkUnitID="{AEC0B2B1-647F-4509-91DA-C6805759B4F6}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Voice" ID="{78F096F0-4974-4521-98FE-6F2AB3EAB7E0}" WorkUnitID="{78F096F0-4974-4521-98FE-6F2AB3EAB7E0}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="UI" ID="{CB3742CC-CCE8-4B97-86E1-2CE1666D85A2}" WorkUnitID="{CB3742CC-CCE8-4B97-86E1-2CE1666D85A2}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Magic" ID="{BA01ED5B-0803-4F3E-BDD3-1C6A37246B2F}" WorkUnitID="{BA01ED5B-0803-4F3E-BDD3-1C6A37246B2F}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Specific" ID="{84B8B5A6-64C9-4F80-8C39-8EDE9FF647E4}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_amb_forest_day_background_loop" ID="{36AE9C89-A05C-4DEF-A3F4-721463FD227C}" WorkUnitID="{E8BA554E-CD2C-4F42-A041-D281A0FA8848}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

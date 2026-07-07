@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BA01ED5B-0803-4F3E-BDD3-1C6A37246B2F}" SchemaVersion="85">
+	<Events>
+		<WorkUnit Name="Magic" ID="{BA01ED5B-0803-4F3E-BDD3-1C6A37246B2F}" PersistMode="Standalone">
+			<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Bay Area Sound, Inc.
+With the help of Damian Kastbauer for Lost Chocolate Lab.
+(c) 2012 Bay Area Sound, Inc.
+www.basound.com
+
+The Audio Content contained in this file is the property of Bay Area Sound, Inc.
+Your sole right with regard to this Audio Content is to listen to the Audio 
+Content as part of this Sample Project.  This Audio Content cannot be used
+or modified for a commercial purpose nor for public demonstration.</Comment>
+			<ChildrenList>
+				<Event Name="Play_magic_blast_fire_blend" ID="{93F38D56-9A09-4243-A38E-8D7819014897}">
+					<ChildrenList>
+						<Action Name="" ID="{B5075934-10B9-41DF-841C-A0D2DF029F15}" ShortID="323099809">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="magic_blast_fire_blend" ID="{CCA47B2A-6B08-4CD1-B84E-DDE21F747A0E}" WorkUnitID="{7CFE6BC7-A8FA-4738-A88A-D74821406240}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_magic_blast_fire_distance_blend" ID="{0D5DF06F-2DF6-48CA-99B5-5004C3FA99AA}">
+					<ChildrenList>
+						<Action Name="" ID="{E2977459-8CA2-44D8-8472-073CD0304332}" ShortID="160766792">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="magic_blast_fire_distance_blend" ID="{D1AE0F51-777C-4780-A804-180A99A49D29}" WorkUnitID="{7CFE6BC7-A8FA-4738-A88A-D74821406240}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

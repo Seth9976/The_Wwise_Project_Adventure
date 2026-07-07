@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{04F86131-49AD-4329-98BB-B2DD0F96BDD3}" SchemaVersion="85">
+	<Events>
+		<WorkUnit Name="Music" ID="{04F86131-49AD-4329-98BB-B2DD0F96BDD3}" PersistMode="Standalone">
+			<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Bay Area Sound, Inc.
+With the help of Damian Kastbauer for Lost Chocolate Lab.
+(c) 2012 Bay Area Sound, Inc.
+www.basound.com
+
+The Audio Content contained in this file is the property of Bay Area Sound, Inc.
+Your sole right with regard to this Audio Content is to listen to the Audio 
+Content as part of this Sample Project.  This Audio Content cannot be used
+or modified for a commercial purpose nor for public demonstration.</Comment>
+			<ChildrenList>
+				<Event Name="Play_Music_System" ID="{7ADFE735-CFF7-4FB6-AD0E-95505AC5D57D}">
+					<ChildrenList>
+						<Action Name="" ID="{B6D38FC6-5D90-4038-A01F-31AA06405A62}" ShortID="137611763">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_System" ID="{39A5CDCD-C186-4B42-8BBD-951757BBF439}" WorkUnitID="{7EEF7DFB-FB01-49A6-ADE2-D0FF894FF235}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Music_System" ID="{A4B8F7DD-C386-4802-923E-93E8AFF8823F}">
+					<ChildrenList>
+						<Action Name="" ID="{855521E5-A89B-4F10-A660-1FC5D0F7C165}" ShortID="1040362626">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_System" ID="{39A5CDCD-C186-4B42-8BBD-951757BBF439}" WorkUnitID="{7EEF7DFB-FB01-49A6-ADE2-D0FF894FF235}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

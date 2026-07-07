@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3AE0B262-D812-41EC-9F52-A61D7B80BDC5}" SchemaVersion="85">
+	<Events>
+		<WorkUnit Name="Ambient" ID="{3AE0B262-D812-41EC-9F52-A61D7B80BDC5}" PersistMode="Standalone">
+			<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Bay Area Sound, Inc.
+With the help of Damian Kastbauer for Lost Chocolate Lab.
+(c) 2012 Bay Area Sound, Inc.
+www.basound.com
+
+The Audio Content contained in this file is the property of Bay Area Sound, Inc.
+Your sole right with regard to this Audio Content is to listen to the Audio 
+Content as part of this Sample Project.  This Audio Content cannot be used
+or modified for a commercial purpose nor for public demonstration.</Comment>
+			<ChildrenList>
+				<Event Name="Play_Ambient_day_night" ID="{B74867CF-0D1A-4763-9653-1D1FABCA96F1}">
+					<ChildrenList>
+						<Action Name="" ID="{0AB8ABFF-EA07-463D-9FE4-9FB3275EE3C9}" ShortID="650455401">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambient_day_night" ID="{8E07F435-CDC6-4351-8E01-91A5526A01F3}" WorkUnitID="{780B3222-149B-4B11-A528-263DFDE531E0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Ambient_day_night" ID="{F98B700E-FF10-4395-847C-0BA2C160AFDD}">
+					<ChildrenList>
+						<Action Name="" ID="{32505F23-EF9C-4FC4-9137-3F14A1D93C5A}" ShortID="318673366">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambient_day_night" ID="{8E07F435-CDC6-4351-8E01-91A5526A01F3}" WorkUnitID="{780B3222-149B-4B11-A528-263DFDE531E0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

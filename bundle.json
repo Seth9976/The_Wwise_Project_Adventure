@@ -1,0 +1,107 @@
+{
+    "groups": [
+        {
+            "displayName": "Packages",
+            "id": "Packages",
+            "values": [
+                {
+                    "$checked": true,
+                    "$disabled": true,
+                    "$visible": true,
+                    "description": "A full project built from scratch with the guiding documentation of audio designer Damian Kastbauer.",
+                    "displayName": "The Wwise Project Adventure",
+                    "eulaIds": [
+                        "Wwise"
+                    ],
+                    "id": "WwiseProjectAdventure"
+                }
+            ]
+        }
+    ],
+    "description": "The <b>Wwise Project Adventure</b> shows how to implement interactive and dynamic audio for a fictional game project using Wwise. This comprehensive document covers the process from start to finish, and the companion Wwise project allows you to take a hands-on approach to investigating the techniques.<br><br>The Wwise Project Adventure document and accompanying project are available via the Wwise installer.",
+    "documentation": [],
+    "eulas": [
+        {
+            "displayName": "Wwise",
+            "fileName": "Eula.txt",
+            "id": "Wwise"
+        }
+    ],
+    "files": [
+        {
+            "documentationFiles": [
+                {
+                    "displayName": "View Handbook (EN)",
+                    "path": "WwiseProjectAdventure/WwiseProjectAdventure_en.pdf"
+                },
+                {
+                    "displayName": "View Handbook (JA)",
+                    "path": "WwiseProjectAdventure/WwiseProjectAdventure_ja.pdf"
+                },
+                {
+                    "displayName": "View Handbook (ZH)",
+                    "path": "WwiseProjectAdventure/WwiseProjectAdventure_zh.pdf"
+                }
+            ],
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "WwiseProjectAdventure"
+                }
+            ],
+            "id": "WwiseProjectAdventure.tar.xz",
+            "licenses": [],
+            "name": "WwiseProjectAdventure.tar.xz",
+            "sha1": "fba347dfb6ccff4cb1806b81808a7a1b3104ad9a",
+            "size": 207551044,
+            "sourceName": "WwiseProjectAdventure_v2017.2.10_Build6745.tar.xz",
+            "uncompressedSize": 359619072
+        }
+    ],
+    "id": "wwise-project-adventure.2017_2_10_6745",
+    "image": "https://media.gowwise.com/images/samples/wwise-project-adventure.png",
+    "labels": [],
+    "launcher": {
+        "minimumRequiredVersion": {
+            "build": 0,
+            "major": 1,
+            "minor": "0",
+            "year": 2025
+        }
+    },
+    "links": [],
+    "name": "The Wwise Project Adventure",
+    "productDependentData": {
+        "projectPaths": {
+            "wwise": "WwiseProjectAdventure/WwiseProjectAdventure.wproj"
+        },
+        "targetWwiseVersion": {
+            "build": 6745,
+            "major": 2,
+            "minor": 10,
+            "nickname": "",
+            "year": 2017
+        }
+    },
+    "redistributables": [],
+    "requirements": [],
+    "tag": "wwise-project-adventure",
+    "type": "sample",
+    "vendor": "Audiokinetic",
+    "version": {
+        "nickname": "",
+        "build": 6745,
+        "major": 2,
+        "minor": 10,
+        "year": 2017
+    },
+    "$checked": null,
+    "$unlocked": null,
+    "$visible": null,
+    "$disabled": null,
+    "applicable": null,
+    "$message": null,
+    "initialPublishDate": 1747753200000,
+    "$sortGroupIndex": 8,
+    "children": []
+}

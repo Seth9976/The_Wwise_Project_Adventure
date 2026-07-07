@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EEE4B472-B417-40DB-B84C-33A9B1D04BD5}" SchemaVersion="85">
+	<States>
+		<WorkUnit Name="Music_States" ID="{EEE4B472-B417-40DB-B84C-33A9B1D04BD5}" PersistMode="Standalone">
+			<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Bay Area Sound, Inc.
+With the help of Damian Kastbauer for Lost Chocolate Lab.
+(c) 2012 Bay Area Sound, Inc.
+www.basound.com
+
+The Audio Content contained in this file is the property of Bay Area Sound, Inc.
+Your sole right with regard to this Audio Content is to listen to the Audio 
+Content as part of this Sample Project.  This Audio Content cannot be used
+or modified for a commercial purpose nor for public demonstration.</Comment>
+			<ChildrenList>
+				<StateGroup Name="gameplay" ID="{DF3E79FF-95A7-4A9E-9B20-B4205F3B319C}">
+					<ChildrenList>
+						<State Name="None" ID="{38D60C81-18AE-4D42-88C6-38F1FAFC6E2D}"/>
+						<State Name="action" ID="{24CBC365-E7A0-4E8C-A4C2-BA1D246C02C3}"/>
+						<State Name="ambient" ID="{70F64D78-3778-43DE-80F4-3A18FF362E47}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="ambient" ID="{70F64D78-3778-43DE-80F4-3A18FF362E47}"/>
+							<EndState Name="action" ID="{24CBC365-E7A0-4E8C-A4C2-BA1D246C02C3}"/>
+							<Time>2</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="action" ID="{24CBC365-E7A0-4E8C-A4C2-BA1D246C02C3}"/>
+							<EndState Name="ambient" ID="{70F64D78-3778-43DE-80F4-3A18FF362E47}"/>
+							<Time>4</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

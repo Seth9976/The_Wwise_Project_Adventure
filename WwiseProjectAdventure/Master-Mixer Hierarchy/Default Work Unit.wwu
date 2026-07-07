@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}" SchemaVersion="85">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<PropertyList>
+						<Property Name="DivergenceCenter" Type="int32">
+							<ValueList>
+								<Value>100</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{7281EE08-6AE3-4429-820D-C4271F9664C2}" WorkUnitID="{F92583A1-B7DD-4270-B321-AEABF5BAD737}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
+							<ObjectRef Name="Brick_Wall_Minus_1dB_Peak_Fast_Release" ID="{2144284E-7ADD-4341-86A4-4E468BEC9A2D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="World_Sound" ID="{3EBBFADE-0436-43E5-A32A-5B8CBC56D2AC}">
+							<PropertyList>
+								<Property Name="DivergenceCenter" Type="int32">
+									<ValueList>
+										<Value>100</Value>
+									</ValueList>
+								</Property>
+								<Property Name="HdrEnable" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="HdrRatio" Type="Real64">
+									<ValueList>
+										<Value>60</Value>
+									</ValueList>
+								</Property>
+								<Property Name="HdrReleaseTime" Type="Real64">
+									<ValueList>
+										<Value>0.1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="HdrThreshold" Type="Real64">
+									<ValueList>
+										<Value>-15</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Effect0">
+									<Custom CreatedFrom="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}">
+										<Effect Name="Have_U_Ever_Been_Outside (Define custom)" ID="{39824DC4-CC1A-4626-90EA-A9A30A9B0657}" ShortID="395730154" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<PropertyList>
+												<Property Name="DecayTime" Type="Real32" Value="1"/>
+												<Property Name="Density" Type="Real32" Value="50"/>
+												<Property Name="ERLevel" Type="Real32" Value="-17"/>
+												<Property Name="ERPattern" Type="int32" Value="29"/>
+												<Property Name="Filter1Freq" Type="Real32" Value="210"/>
+												<Property Name="Filter1Gain" Type="Real32" Value="1.5"/>
+												<Property Name="Filter2Freq" Type="Real32" Value="6830"/>
+												<Property Name="Filter2Gain" Type="Real32" Value="-7.5"/>
+												<Property Name="Filter2Q" Type="Real32" Value="0.65"/>
+												<Property Name="Filter3Freq" Type="Real32" Value="8440"/>
+												<Property Name="Filter3Gain" Type="Real32" Value="-4"/>
+												<Property Name="HFDamping" Type="Real32" Value="5.05"/>
+												<Property Name="PreDelay" Type="Real32" Value="145"/>
+												<Property Name="Quality" Type="int32" Value="12"/>
+												<Property Name="ReverbLevel" Type="Real32" Value="-28"/>
+												<Property Name="RoomSize" Type="Real32" Value="73"/>
+												<Property Name="StereoWidth" Type="Real32" Value="28"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Bus Name="Combat" ID="{142AA792-047C-43AA-AEFA-7C222F5D4AA8}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{9FFED9FF-51B7-43BA-A787-C7AB2DAA928B}" ShortID="35029077">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Magic_Volume" ID="{6D7CE0E0-B004-43E6-A075-5D2BE444383C}" WorkUnitID="{3830E86F-C260-4909-8864-FA0B73D7BD16}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{A38B06DE-67EC-4E95-8F93-E4B12B1CE24E}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>-48</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>-28.8</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>SCurve</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-96.3</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="DivergenceCenter" Type="int32">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+								</Bus>
+								<Bus Name="Character" ID="{0C9B765D-2593-48FB-A9B6-6B8989618083}">
+									<PropertyList>
+										<Property Name="DivergenceCenter" Type="int32">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<DuckingList>
+										<DuckItem>
+											<BusRef Name="Ambient" ID="{04031C05-E9F4-42D9-9638-AEA3CA79A0DE}"/>
+											<DuckingParam>
+												<Volume>-6</Volume>
+												<FadeInTime>1</FadeInTime>
+												<FadeOutTime>1</FadeOutTime>
+												<FadeCurve>FadeLinear</FadeCurve>
+												<TargetProp>BusVolume</TargetProp>
+											</DuckingParam>
+										</DuckItem>
+									</DuckingList>
+								</Bus>
+								<Bus Name="Magic" ID="{3693ECB3-AAE4-482C-B2DF-A7430A8228F8}">
+									<PropertyList>
+										<Property Name="DivergenceCenter" Type="int32">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+								</Bus>
+								<Bus Name="Ambient" ID="{04031C05-E9F4-42D9-9638-AEA3CA79A0DE}">
+									<PropertyList>
+										<Property Name="DivergenceCenter" Type="int32">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="gameplay" ID="{DF3E79FF-95A7-4A9E-9B20-B4205F3B319C}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="ambient" ID="{70F64D78-3778-43DE-80F4-3A18FF362E47}"/>
+												<State Name="" ID="{E7AC724F-D980-42C1-947E-B9B9BBA63E6D}" ShortID="357574744"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="action" ID="{24CBC365-E7A0-4E8C-A4C2-BA1D246C02C3}"/>
+												<State Name="Custom State" ID="{30BE7BD0-C886-4586-93DA-BC1E2DA56261}" ShortID="380382764">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-5"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+								</Bus>
+								<AuxBus Name="Amulet" ID="{2D4376C3-EEF6-4872-AFD1-1D0FB692726D}">
+									<PropertyList>
+										<Property Name="DivergenceCenter" Type="int32">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Effect0">
+											<Custom>
+												<Effect Name="Default (Custom)" ID="{CE2AFE1C-1A44-47C0-BF74-A3D61CEE6CF8}" ShortID="188015793" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
+													<PropertyList>
+														<Property Name="DistortionDrive" Type="Real32" Value="48"/>
+														<Property Name="DistortionTone" Type="Real32" Value="94"/>
+														<Property Name="DistortionType" Type="int32" Value="1"/>
+														<Property Name="PostEQBand1FilterType" Type="int32" Value="5"/>
+														<Property Name="PostEQBand1Frequency" Type="Real32" Value="20000"/>
+														<Property Name="PostEQBand1QFactor" Type="Real32" Value="4.7"/>
+														<Property Name="PostEQBand3FilterType" Type="int32" Value="1"/>
+														<Property Name="PostEQBand3Frequency" Type="Real32" Value="12105"/>
+														<Property Name="PostEQBand3QFactor" Type="Real32" Value="12.7"/>
+														<Property Name="PreEQBand1Enable" Type="bool" Value="True"/>
+														<Property Name="PreEQBand1FilterType" Type="int32" Value="6"/>
+														<Property Name="PreEQBand1Frequency" Type="Real32" Value="9541"/>
+														<Property Name="PreEQBand1QFactor" Type="Real32" Value="4.4"/>
+														<Property Name="Rectification" Type="Real32" Value="50"/>
+														<Property Name="WetDryMix" Type="Real32" Value="0">
+															<RTPCList>
+																<RTPC Name="" ID="{ADB1F1DE-46BB-41BD-9367-EA4F79574D3D}" ShortID="705559061">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="Danger" ID="{08F00D7E-BB3D-4EEB-B80C-45CE51C444D8}" WorkUnitID="{74EAB309-0EF5-4D0F-87E2-A8456F9875B0}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{58502398-B954-495E-A0CE-CEFDEB53A2F2}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>50</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>49.83165</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+													</PropertyList>
+												</Effect>
+											</Custom>
+										</Reference>
+										<Reference Name="Effect1">
+											<Custom CreatedFrom="{65397B72-19EC-43DB-B2D2-EB84437B6BDC}">
+												<Effect Name="Boomerang (Define custom)" ID="{87A6A6E1-E8A6-474E-A1F9-3B0A618F09BB}" ShortID="708253445" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+													<PropertyList>
+														<Property Name="ModDepth" Type="Real32" Value="0">
+															<RTPCList>
+																<RTPC Name="" ID="{08EF823A-6DA8-4BF7-8678-CE878C0A913C}" ShortID="456944609">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="Danger" ID="{08F00D7E-BB3D-4EEB-B80C-45CE51C444D8}" WorkUnitID="{74EAB309-0EF5-4D0F-87E2-A8456F9875B0}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{99189FE5-F498-49F6-B1D8-5533AA6C5CCE}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>29.87342</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																				<SegmentShape>Log3</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>70.03367</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+														<Property Name="ModFrequency" Type="Real32" Value="10"/>
+														<Property Name="ModPWM" Type="Real32" Value="100"/>
+														<Property Name="ModPhaseMode" Type="int32" Value="2"/>
+														<Property Name="ModPhaseOffset" Type="Real32" Value="-180"/>
+														<Property Name="ModPhaseSpread" Type="Real32" Value="42"/>
+														<Property Name="ProcessLFE" Type="bool" Value="False"/>
+													</PropertyList>
+												</Effect>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+								</AuxBus>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="Non-World" ID="{BB3F7B7F-D338-40E1-940A-8634D0AF03B4}">
+							<PropertyList>
+								<Property Name="DivergenceCenter" Type="int32">
+									<ValueList>
+										<Value>100</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ChildrenList>
+								<Bus Name="Voice_Non_World" ID="{1C12BD94-6CBC-4572-8F14-3D04A4371B27}">
+									<PropertyList>
+										<Property Name="DivergenceCenter" Type="int32">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+								</Bus>
+								<Bus Name="UI" ID="{4C883836-7B64-40A3-B28C-B1F1D8AEE67D}">
+									<PropertyList>
+										<Property Name="DivergenceCenter" Type="int32">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+								</Bus>
+								<Bus Name="Music" ID="{DA3F90D5-3E9A-4567-B4AC-61F7BE31814E}">
+									<PropertyList>
+										<Property Name="DivergenceCenter" Type="int32">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+								</Bus>
+							</ChildrenList>
+						</Bus>
+					</ChildrenList>
+				</Bus>
+				<Bus Name="Master Motion Bus" ID="{20A630BA-3398-4676-B927-1004DFE41FD8}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="Wwise Motion" CompanyID="0" PluginID="507" PluginType="7">
+							<ObjectRef Name="Wwise_Motion" ID="{AD43F918-1E30-41FA-9397-F405E256EDEE}" WorkUnitID="{F92583A1-B7DD-4270-B321-AEABF5BAD737}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="motion_sound" ID="{11B688C2-F1C7-45A2-840A-878459535888}">
+							<ChildrenList>
+								<AuxBus Name="motion_sound_Aux" ID="{1539CE89-B04D-4DD4-9767-B55F33C193F3}"/>
+							</ChildrenList>
+						</Bus>
+					</ChildrenList>
+				</Bus>
+				<Bus Name="Master Secondary Bus" ID="{D2E0BC7E-7B3F-4FFE-A670-FAE02761B631}">
+					<PropertyList>
+						<Property Name="DivergenceCenter" Type="int32">
+							<ValueList>
+								<Value>100</Value>
+							</ValueList>
+						</Property>
+						<Property Name="MaxDuckVolume" Type="Real64" Value="-96"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{7281EE08-6AE3-4429-820D-C4271F9664C2}" WorkUnitID="{F92583A1-B7DD-4270-B321-AEABF5BAD737}"/>
+						</Reference>
+					</ReferenceList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

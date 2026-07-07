@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{78F096F0-4974-4521-98FE-6F2AB3EAB7E0}" SchemaVersion="85">
+	<Events>
+		<WorkUnit Name="Voice" ID="{78F096F0-4974-4521-98FE-6F2AB3EAB7E0}" PersistMode="Standalone">
+			<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Bay Area Sound, Inc.
+With the help of Damian Kastbauer for Lost Chocolate Lab.
+(c) 2012 Bay Area Sound, Inc.
+www.basound.com
+
+The Audio Content contained in this file is the property of Bay Area Sound, Inc.
+Your sole right with regard to this Audio Content is to listen to the Audio 
+Content as part of this Sample Project.  This Audio Content cannot be used
+or modified for a commercial purpose nor for public demonstration.</Comment>
+			<ChildrenList>
+				<Event Name="Play_vo_grue_i_will_end_you" ID="{ACB03160-B9B0-4657-9392-028F3EC81DA6}">
+					<ChildrenList>
+						<Action Name="" ID="{191E1DF1-0033-4EEA-B40A-9A98C9E2D842}" ShortID="1032176910">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="vo_grue_i_will_end_you" ID="{F20E2894-E6E5-4E52-82E8-D2CCEE8346F1}" WorkUnitID="{11F400DB-7F7C-47D4-8B37-D9D6F7EFC13D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_vo_grue_til_death" ID="{55FD262F-4413-4C83-9614-4F5E4A737DCE}">
+					<ChildrenList>
+						<Action Name="" ID="{7F2C2E43-A7C6-4E30-BB72-8F3EDDDB4E1F}" ShortID="880838085">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="vo_grue_til_death" ID="{08017753-A01D-4057-ABE8-6F58C13BFE0D}" WorkUnitID="{11F400DB-7F7C-47D4-8B37-D9D6F7EFC13D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_vo_grue_you_are_mine" ID="{3AAFF199-6BA7-4BCF-A6EB-FB683B83CA36}">
+					<ChildrenList>
+						<Action Name="" ID="{5D8FBEE1-07CD-466F-AD07-EEC8B408D1E2}" ShortID="177449162">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="vo_grue_you_are_mine" ID="{8706B07D-6245-4AED-8C00-789CE86D851B}" WorkUnitID="{11F400DB-7F7C-47D4-8B37-D9D6F7EFC13D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_vo_hero_goodbye" ID="{B9981198-F59B-4EBB-9827-324339EAE603}">
+					<ChildrenList>
+						<Action Name="" ID="{0973F98E-7081-4456-9C52-925595D967E0}" ShortID="52153860">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="vo_hero_goodbye" ID="{8975A7E4-1C7F-4D27-A50C-400FC5A4EEE7}" WorkUnitID="{11F400DB-7F7C-47D4-8B37-D9D6F7EFC13D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_vo_hero_goodbye_later" ID="{951469BA-9072-48B9-B732-7CDFE70D8036}">
+					<ChildrenList>
+						<Action Name="" ID="{B4F9F68F-9EA4-45A2-9CCA-CBA1BA3B935D}" ShortID="410365582">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="vo_hero_goodbye_later" ID="{31505579-0117-4A81-A34D-0DC5A8C6589E}" WorkUnitID="{11F400DB-7F7C-47D4-8B37-D9D6F7EFC13D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_vo_hero_hello" ID="{191B67D4-901F-4749-864F-F1CCF40A6394}">
+					<ChildrenList>
+						<Action Name="" ID="{A9FB9B3B-E217-4130-AF0F-74A1F77D7EE2}" ShortID="36897386">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="vo_hero_hello" ID="{5CB0D1C7-538E-4F34-9DDB-36AFAF769E74}" WorkUnitID="{11F400DB-7F7C-47D4-8B37-D9D6F7EFC13D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_vo_hero_hello_whatsup" ID="{A9B9E079-1723-4913-991E-E7686F9E453A}">
+					<ChildrenList>
+						<Action Name="" ID="{F963DA3E-8523-4835-BCD4-196012D6A2CB}" ShortID="283162581">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="vo_hero_hello_whatsup" ID="{07FFBFEC-047D-4857-8356-CD8A52013636}" WorkUnitID="{11F400DB-7F7C-47D4-8B37-D9D6F7EFC13D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

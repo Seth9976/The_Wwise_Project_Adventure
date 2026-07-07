@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D6D4F52F-79B5-434A-AD13-672EE62AB7CC}" SchemaVersion="85">
+	<Events>
+		<WorkUnit Name="Character" ID="{D6D4F52F-79B5-434A-AD13-672EE62AB7CC}" PersistMode="Standalone">
+			<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Bay Area Sound, Inc.
+With the help of Damian Kastbauer for Lost Chocolate Lab.
+(c) 2012 Bay Area Sound, Inc.
+www.basound.com
+
+The Audio Content contained in this file is the property of Bay Area Sound, Inc.
+Your sole right with regard to this Audio Content is to listen to the Audio 
+Content as part of this Sample Project.  This Audio Content cannot be used
+or modified for a commercial purpose nor for public demonstration.</Comment>
+			<ChildrenList>
+				<Event Name="Play_Footstep" ID="{C9FD3C73-255A-47E5-BFA2-C3D1514AE81F}">
+					<ChildrenList>
+						<Action Name="" ID="{6EA960E6-01C6-4EE7-BB9F-1680A4729726}" ShortID="274238770">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="Delay" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{80A94060-52B5-4B3B-A85A-7E3152FC65F8}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="False"/>
+													<Property Name="Max" Type="Real64" Value="0.3"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footstep_Character_Type" ID="{3F0A6B3E-5D4A-4C8A-B39F-62B6B3F930A8}" WorkUnitID="{84C05677-5F03-43C0-81C3-BA52CE7089EA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4614942E-830A-46A2-B791-5ED232177296}" ShortID="120934108">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="Delay" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{4A2CD33C-2F5B-4377-8947-DBB38AEC5991}">
+												<PropertyList>
+													<Property Name="Max" Type="Real64" Value="0.3"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Movement_Character_Type" ID="{FDBBF1C2-4D02-428B-99EC-5F4D75E9A987}" WorkUnitID="{84C05677-5F03-43C0-81C3-BA52CE7089EA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" SchemaVersion="85">
+	<Switches>
+		<WorkUnit Name="Footsteps_Switches" ID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" PersistMode="Standalone">
+			<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Bay Area Sound, Inc.
+With the help of Damian Kastbauer for Lost Chocolate Lab.
+(c) 2012 Bay Area Sound, Inc.
+www.basound.com
+
+The Audio Content contained in this file is the property of Bay Area Sound, Inc.
+Your sole right with regard to this Audio Content is to listen to the Audio 
+Content as part of this Sample Project.  This Audio Content cannot be used
+or modified for a commercial purpose nor for public demonstration.</Comment>
+			<ChildrenList>
+				<SwitchGroup Name="Step_Type" ID="{7E9E5547-67FD-45E6-80C6-0D027BD8EACC}">
+					<ChildrenList>
+						<Switch Name="Walk" ID="{376673E2-AA6B-42D5-B1EC-546FAEAC6743}"/>
+						<Switch Name="Run" ID="{325E9872-AF44-4C6F-8782-EB12750E5DBF}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Surface_Type" ID="{0585CEC8-4165-450C-8F90-7F1FC8884A30}">
+					<ChildrenList>
+						<Switch Name="Dirt" ID="{DA022E47-ED1D-49CA-AC65-3259C3F1EDC9}"/>
+						<Switch Name="Forest" ID="{62B7CD0E-5C3B-45D2-9FC1-60EECDC1E4A8}"/>
+						<Switch Name="Stone" ID="{B320BBD5-A055-46B1-B459-CE4924B0299E}"/>
+						<Switch Name="Stone_Dirt" ID="{151E3A1C-4BE3-488E-9CEB-538C2F32F3B9}"/>
+						<Switch Name="Flesh" ID="{32B8D911-D5B4-4723-A136-A2A320DAA466}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Armor_Type" ID="{6859654F-7A29-4BC8-9E9C-DA00BC1B946E}">
+					<ChildrenList>
+						<Switch Name="Leather" ID="{54456F90-6E3E-49C3-AA3D-1D5C1415A783}"/>
+						<Switch Name="MetalPlate" ID="{339302C3-D66C-4383-8C8E-F4CA256601E9}"/>
+						<Switch Name="ChainMail" ID="{2DB85BFA-68FC-4711-8DC3-2661639D4986}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Character_Type" ID="{E89EBA24-4DB9-45D4-A120-E91366A2AD36}">
+					<ChildrenList>
+						<Switch Name="Grue" ID="{BC5CDB08-307E-4E00-8989-C0F94AB207A9}"/>
+						<Switch Name="Hero" ID="{3E8C0A16-4EC0-4B8D-BCCC-C8731E9358D9}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

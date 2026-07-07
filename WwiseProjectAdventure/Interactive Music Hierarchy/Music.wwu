@@ -1,0 +1,2706 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7EEF7DFB-FB01-49A6-ADE2-D0FF894FF235}" SchemaVersion="85">
+	<InteractiveMusic>
+		<WorkUnit Name="Music" ID="{7EEF7DFB-FB01-49A6-ADE2-D0FF894FF235}" PersistMode="Standalone">
+			<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Bay Area Sound, Inc.
+With the help of Damian Kastbauer for Lost Chocolate Lab.
+(c) 2012 Bay Area Sound, Inc.
+www.basound.com
+
+The Audio Content contained in this file is the property of Bay Area Sound, Inc.
+Your sole right with regard to this Audio Content is to listen to the Audio 
+Content as part of this Sample Project.  This Audio Content cannot be used
+or modified for a commercial purpose nor for public demonstration.</Comment>
+			<ChildrenList>
+				<MusicSwitchContainer Name="Music_System" ID="{39A5CDCD-C186-4B42-8BBD-951757BBF439}" ShortID="112876873">
+					<PropertyList>
+						<Property Name="ContinuePlay" Type="bool" Value="True"/>
+						<Property Name="Tempo" Type="Real64" Value="60"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80BE8EEB-3F19-43CD-9BCB-5157D976053A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music" ID="{DA3F90D5-3E9A-4567-B4AC-61F7BE31814E}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicPlaylistContainer Name="Action_Music_Loop" ID="{8852D101-B3E5-4E0F-81C9-ACE21B19A9A0}" ShortID="317105499">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80BE8EEB-3F19-43CD-9BCB-5157D976053A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Music_Sequence_Action_ThemeA_01" ID="{0A8BEC84-DF76-478A-999B-892B8545293A}" ShortID="843778442">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="15998.6394557823"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80BE8EEB-3F19-43CD-9BCB-5157D976053A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Music_Sequence_Action_ThemeA_01" ID="{7000A600-CE2B-4BB3-88A0-05EDA05FC35C}" ShortID="708311451">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Music_Sequence_Action_ThemeA_01" ID="{E520B376-93C2-4AA0-B75F-530FA4CC6816}" ShortID="262903506">
+													<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Bay Area Sound, Inc.
+With the help of Damian Kastbauer for Lost Chocolate Lab.
+(c) 2012 Bay Area Sound, Inc.
+www.basound.com
+
+The Audio Content contained in this file is the property of Bay Area Sound, Inc.
+Your sole right with regard to this Audio Content is to listen to the Audio 
+Content as part of this Sample Project.  This Audio Content cannot be used
+or modified for a commercial purpose nor for public demonstration.</Comment>
+													<Language>SFX</Language>
+													<AudioFile>Music\Music_Sequence_Action_ThemeA_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{28FB221D-B131-4042-BCC6-1B8131EE56AE}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{4C0991E1-0A90-4158-806F-B7E0B478B599}">
+													<ClipList>
+														<MusicClip Name="Music_Sequence_Action_ThemeA_01" ID="{E076A798-DB18-4EF5-92EE-073F325277BF}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="15998.6394557823"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Music_Sequence_Action_ThemeA_01" ID="{E520B376-93C2-4AA0-B75F-530FA4CC6816}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{D2BD22DE-0B03-43B1-8FE4-C68973AE50AD}"/>
+										<MusicCue Name="Exit Cue" ID="{CA3E991B-92D1-45AF-ACDC-7CC97FD11BF3}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="15998.6394557823"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="Music_Sequence_Action_ThemeA_02" ID="{225C71E0-0976-46AF-AC55-947E67BDCFAE}" ShortID="440876776">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="16013.6961451247"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80BE8EEB-3F19-43CD-9BCB-5157D976053A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Music_Sequence_Action_ThemeA_02" ID="{DF9FE18B-85FD-40F9-8212-E8E605E60F59}" ShortID="126269820">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Music_Sequence_Action_ThemeA_02" ID="{79F67F4B-6955-4E88-95BA-1E26BABD1431}" ShortID="196814288">
+													<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Bay Area Sound, Inc.
+With the help of Damian Kastbauer for Lost Chocolate Lab.
+(c) 2012 Bay Area Sound, Inc.
+www.basound.com
+
+The Audio Content contained in this file is the property of Bay Area Sound, Inc.
+Your sole right with regard to this Audio Content is to listen to the Audio 
+Content as part of this Sample Project.  This Audio Content cannot be used
+or modified for a commercial purpose nor for public demonstration.</Comment>
+													<Language>SFX</Language>
+													<AudioFile>Music\Music_Sequence_Action_ThemeA_02.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{6839F305-039B-4F2D-8E93-C0195BCF44C2}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{0493F1BD-CA4C-444E-A3DE-11BB2B6D3025}">
+													<ClipList>
+														<MusicClip Name="Music_Sequence_Action_ThemeA_02" ID="{8B2B676F-DC1F-4416-AA02-DF93452E649D}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="16013.6961451247"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Music_Sequence_Action_ThemeA_02" ID="{79F67F4B-6955-4E88-95BA-1E26BABD1431}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{1E278F31-DF8D-4AC6-9114-8AA71F5C9832}"/>
+										<MusicCue Name="Exit Cue" ID="{2FCD7756-A605-427B-9458-1D106032A4C4}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="16013.6961451247"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="Music_Sequence_Action_ThemeB_01" ID="{2F04DD7B-55EF-43A0-A83B-193E110559A8}" ShortID="110886076">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="15985.6689342404"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80BE8EEB-3F19-43CD-9BCB-5157D976053A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Music_Sequence_Action_ThemeB_01" ID="{01C883C9-FCE8-4443-BF0A-F32C52C700D6}" ShortID="511080623">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Music_Sequence_Action_ThemeB_01" ID="{BF6F89A5-6383-43CD-9F87-955602B7B4E0}" ShortID="959457064">
+													<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Bay Area Sound, Inc.
+With the help of Damian Kastbauer for Lost Chocolate Lab.
+(c) 2012 Bay Area Sound, Inc.
+www.basound.com
+
+The Audio Content contained in this file is the property of Bay Area Sound, Inc.
+Your sole right with regard to this Audio Content is to listen to the Audio 
+Content as part of this Sample Project.  This Audio Content cannot be used
+or modified for a commercial purpose nor for public demonstration.</Comment>
+													<Language>SFX</Language>
+													<AudioFile>Music\Music_Sequence_Action_ThemeB_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{1212B085-359B-4587-A029-7F782D4297CC}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{BD35DAA4-7817-4CBC-975D-AC332B7F3DC6}">
+													<ClipList>
+														<MusicClip Name="Music_Sequence_Action_ThemeB_01" ID="{9AD2281A-A7DF-49E2-B5FD-C889159581E8}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="15985.6689342404"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Music_Sequence_Action_ThemeB_01" ID="{BF6F89A5-6383-43CD-9F87-955602B7B4E0}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{F84B859D-FF28-419F-84E6-6BD8E34E4DC2}"/>
+										<MusicCue Name="Exit Cue" ID="{6730C2D3-0BE9-481D-A520-3551AE7D6B4F}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="15985.6689342404"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="Music_Sequence_Action_ThemeC_01" ID="{08A4C4E1-B4B0-46EF-9363-84012237FA0B}" ShortID="640112103">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="15985.1927437642"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80BE8EEB-3F19-43CD-9BCB-5157D976053A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Music_Sequence_Action_ThemeC_01" ID="{2D234CFE-BB6D-4E96-BF78-61A6375A4644}" ShortID="205825263">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Music_Sequence_Action_ThemeC_01" ID="{F67A1977-0EC1-473A-81AD-271214E513CE}" ShortID="758443913">
+													<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Bay Area Sound, Inc.
+With the help of Damian Kastbauer for Lost Chocolate Lab.
+(c) 2012 Bay Area Sound, Inc.
+www.basound.com
+
+The Audio Content contained in this file is the property of Bay Area Sound, Inc.
+Your sole right with regard to this Audio Content is to listen to the Audio 
+Content as part of this Sample Project.  This Audio Content cannot be used
+or modified for a commercial purpose nor for public demonstration.</Comment>
+													<Language>SFX</Language>
+													<AudioFile>Music\Music_Sequence_Action_ThemeC_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{1F68D4C5-01D0-47E6-855F-5E47AC0476CA}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{82061678-197E-4C92-AA77-1E29D205BFE7}">
+													<ClipList>
+														<MusicClip Name="Music_Sequence_Action_ThemeC_01" ID="{CEE31F8E-F39C-4E20-B128-04BCC4A0DFB6}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="15985.1927437642"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Music_Sequence_Action_ThemeC_01" ID="{F67A1977-0EC1-473A-81AD-271214E513CE}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{8D24C690-F139-4F6A-A2AE-B6483E21AFD3}"/>
+										<MusicCue Name="Exit Cue" ID="{E7023870-AFBB-4644-97C0-E079A198190F}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="15985.1927437642"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="Music_Sequence_Action_ThemeC_02" ID="{92F7412A-6657-4943-8F78-24D3A2422C72}" ShortID="476034350">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="16526.3718820862"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80BE8EEB-3F19-43CD-9BCB-5157D976053A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Music_Sequence_Action_ThemeC_02" ID="{7B47897C-8E3A-4DD8-8113-847DB7197E9B}" ShortID="959352688">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Music_Sequence_Action_ThemeC_02" ID="{9E8E863C-D7DF-4FEF-8BCF-83D9CC1BED7C}" ShortID="225851395">
+													<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Bay Area Sound, Inc.
+With the help of Damian Kastbauer for Lost Chocolate Lab.
+(c) 2012 Bay Area Sound, Inc.
+www.basound.com
+
+The Audio Content contained in this file is the property of Bay Area Sound, Inc.
+Your sole right with regard to this Audio Content is to listen to the Audio 
+Content as part of this Sample Project.  This Audio Content cannot be used
+or modified for a commercial purpose nor for public demonstration.</Comment>
+													<Language>SFX</Language>
+													<AudioFile>Music\Music_Sequence_Action_ThemeC_02.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{68BDBD94-122C-4009-967E-BF8F2F9DD6AC}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{6A3CCE06-A9A3-4A13-9DDC-1C44CE613A04}">
+													<ClipList>
+														<MusicClip Name="Music_Sequence_Action_ThemeC_02" ID="{032CF450-8749-4904-9AFA-E015DD22F2DD}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="16526.3718820862"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Music_Sequence_Action_ThemeC_02" ID="{9E8E863C-D7DF-4FEF-8BCF-83D9CC1BED7C}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{A683177A-D0A9-45BF-A312-4D7B4DF480A8}"/>
+										<MusicCue Name="Exit Cue" ID="{2215C1AA-31C1-44EF-8D9E-31F01D520787}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="16526.3718820862"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="Music_Sequence_Action_ThemeC_03" ID="{659BB977-47E3-4342-B9F5-91414EFD23E0}" ShortID="838661956">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="16018.231292517"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80BE8EEB-3F19-43CD-9BCB-5157D976053A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Music_Sequence_Action_ThemeC_03" ID="{4D993202-23F7-4F8D-95A3-70F3F4E8F1C9}" ShortID="679877504">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Music_Sequence_Action_ThemeC_03" ID="{92484E0C-8FB3-41BC-AE3B-6D82330E61BA}" ShortID="239466031">
+													<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Bay Area Sound, Inc.
+With the help of Damian Kastbauer for Lost Chocolate Lab.
+(c) 2012 Bay Area Sound, Inc.
+www.basound.com
+
+The Audio Content contained in this file is the property of Bay Area Sound, Inc.
+Your sole right with regard to this Audio Content is to listen to the Audio 
+Content as part of this Sample Project.  This Audio Content cannot be used
+or modified for a commercial purpose nor for public demonstration.</Comment>
+													<Language>SFX</Language>
+													<AudioFile>Music\Music_Sequence_Action_ThemeC_03.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{E8F3DB79-9FC3-4E71-BE35-A79930FF7171}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{3747018C-8555-4BBB-B244-5F4D368E5F15}">
+													<ClipList>
+														<MusicClip Name="Music_Sequence_Action_ThemeC_03" ID="{1ACDC51E-ED9A-4B2C-99C1-15AAB82712D1}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="16018.231292517"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Music_Sequence_Action_ThemeC_03" ID="{92484E0C-8FB3-41BC-AE3B-6D82330E61BA}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{8C77E8AA-FFED-4EAB-9580-B4661F81FA93}"/>
+										<MusicCue Name="Exit Cue" ID="{4C7380B0-7C1E-4257-85DA-A9639524D622}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="16018.231292517"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{EAB340C7-8E1E-4AAD-8DED-D15C2132C968}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{0522B3C2-AD6C-465D-82C1-5F177AEB0712}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{6D0F335D-449C-458C-99AB-58F4E77831FD}" ShortID="493731692">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{E0E83500-0671-4002-999F-FBBB321E2A49}" ShortID="284798232">
+											<PropertyList>
+												<Property Name="PlayMode" Type="int16" Value="3"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicPlaylistItem Name="" ID="{62DC2404-09BD-4DA7-A64D-DC217717BAED}" ShortID="911364490">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<SegmentRef Name="Music_Sequence_Action_ThemeA_01" ID="{0A8BEC84-DF76-478A-999B-892B8545293A}"/>
+												</MusicPlaylistItem>
+												<MusicPlaylistItem Name="" ID="{D1F62AB0-75D3-4A0F-924E-49F399F07BBF}" ShortID="591084642">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<SegmentRef Name="Music_Sequence_Action_ThemeA_02" ID="{225C71E0-0976-46AF-AC55-947E67BDCFAE}"/>
+												</MusicPlaylistItem>
+											</ChildrenList>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{F3DBB044-0229-4C2A-A8AD-3E0C34E0DBA4}" ShortID="1019644922">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Music_Sequence_Action_ThemeB_01" ID="{2F04DD7B-55EF-43A0-A83B-193E110559A8}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{B1847335-AD1C-4BFB-B764-C3466C54063E}" ShortID="380811895">
+											<PropertyList>
+												<Property Name="PlayMode" Type="int16" Value="3"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicPlaylistItem Name="" ID="{0030AFF0-D8C0-4CF0-8518-024BCAE2837F}" ShortID="259301799">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<SegmentRef Name="Music_Sequence_Action_ThemeC_01" ID="{08A4C4E1-B4B0-46EF-9363-84012237FA0B}"/>
+												</MusicPlaylistItem>
+												<MusicPlaylistItem Name="" ID="{8C1C3F23-9BEC-4F96-8B33-0556D13F226D}" ShortID="286864824">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<SegmentRef Name="Music_Sequence_Action_ThemeC_02" ID="{92F7412A-6657-4943-8F78-24D3A2422C72}"/>
+												</MusicPlaylistItem>
+												<MusicPlaylistItem Name="" ID="{1561146D-A995-4B11-8CC0-CA3FE9CF94ED}" ShortID="770283114">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<SegmentRef Name="Music_Sequence_Action_ThemeC_03" ID="{659BB977-47E3-4342-B9F5-91414EFD23E0}"/>
+												</MusicPlaylistItem>
+											</ChildrenList>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="Ambient_Music_Loop" ID="{B3826365-E29A-4C3B-BDE3-4D0351879A60}" ShortID="936554198">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80BE8EEB-3F19-43CD-9BCB-5157D976053A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Ambient_Layered" ID="{28C5E98B-8F04-4A4A-9D65-82984AB4BBF0}" ShortID="984675889">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="137218.219549084"/>
+										<Property Name="Tempo" Type="Real64" Value="60"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80BE8EEB-3F19-43CD-9BCB-5157D976053A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Music_Layer_Ambient_Alpenhorn" ID="{C259D2F8-1F4D-4335-BE59-0C3BE66114F6}" ShortID="612986998">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Music_Layer_Ambient_Alpenhorn" ID="{2EAE180F-A926-4EEE-88B4-9A7A07E1F67A}" ShortID="964218671">
+													<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Bay Area Sound, Inc.
+With the help of Damian Kastbauer for Lost Chocolate Lab.
+(c) 2012 Bay Area Sound, Inc.
+www.basound.com
+
+The Audio Content contained in this file is the property of Bay Area Sound, Inc.
+Your sole right with regard to this Audio Content is to listen to the Audio 
+Content as part of this Sample Project.  This Audio Content cannot be used
+or modified for a commercial purpose nor for public demonstration.</Comment>
+													<Language>SFX</Language>
+													<AudioFile>Music\Music_Layer_Ambient_Alpenhorn.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="506985150"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{59D61594-CA5A-4E31-952A-689F899D4216}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{56B5C092-6FCD-4AC1-9BC3-83EBFFADFEE1}">
+													<ClipList>
+														<MusicClip Name="Music_Layer_Ambient_Alpenhorn" ID="{31820C90-596A-4E0D-9AEE-6D3157731EEB}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="53834.0397218998"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Music_Layer_Ambient_Alpenhorn" ID="{2EAE180F-A926-4EEE-88B4-9A7A07E1F67A}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="Music_Layer_Ambient_Bass" ID="{D6C72951-B69F-4F95-A46F-567F05FD7708}" ShortID="777792615">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Music_Layer_Ambient_Bass" ID="{71E6A44D-288C-4172-A80A-A09D666AD1B9}" ShortID="460710904">
+													<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Bay Area Sound, Inc.
+With the help of Damian Kastbauer for Lost Chocolate Lab.
+(c) 2012 Bay Area Sound, Inc.
+www.basound.com
+
+The Audio Content contained in this file is the property of Bay Area Sound, Inc.
+Your sole right with regard to this Audio Content is to listen to the Audio 
+Content as part of this Sample Project.  This Audio Content cannot be used
+or modified for a commercial purpose nor for public demonstration.</Comment>
+													<Language>SFX</Language>
+													<AudioFile>Music\Music_Layer_Ambient_Bass.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{A809417B-500B-41CA-90CE-607704CF1C6C}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{75604A88-317F-4D5B-9667-4CC7AC0C8B09}">
+													<ClipList>
+														<MusicClip Name="Music_Layer_Ambient_Bass" ID="{9FB954CB-784F-4531-984A-2808EEF37A9A}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="101312.34583406"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Music_Layer_Ambient_Bass" ID="{71E6A44D-288C-4172-A80A-A09D666AD1B9}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="Music_Layer_Ambient_BassDrum" ID="{C4A8168F-7F33-47E5-98A1-71536EB77E84}" ShortID="861315547">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{D62C6583-C246-45BB-BBB6-286FAE77C9C4}" ShortID="199562873">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Danger" ID="{08F00D7E-BB3D-4EEB-B80C-45CE51C444D8}" WorkUnitID="{74EAB309-0EF5-4D0F-87E2-A8456F9875B0}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{781CCC17-5C77-4CB4-9C91-2495A9DF8381}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-96.3</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Exp3</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Music_Layer_Ambient_BassDrum" ID="{D112CCC8-B7C6-402B-92A4-9031D243675F}" ShortID="287213008">
+													<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Bay Area Sound, Inc.
+With the help of Damian Kastbauer for Lost Chocolate Lab.
+(c) 2012 Bay Area Sound, Inc.
+www.basound.com
+
+The Audio Content contained in this file is the property of Bay Area Sound, Inc.
+Your sole right with regard to this Audio Content is to listen to the Audio 
+Content as part of this Sample Project.  This Audio Content cannot be used
+or modified for a commercial purpose nor for public demonstration.</Comment>
+													<Language>SFX</Language>
+													<AudioFile>Music\Music_Layer_Ambient_BassDrum.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{3FCECB62-3827-45D0-925B-282046CECADD}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{3380A6E5-8B38-4F63-98C2-8BB8319025BD}">
+													<ClipList>
+														<MusicClip Name="Music_Layer_Ambient_BassDrum" ID="{F4D9FDA4-D390-4E1E-B753-636730A3818E}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="64859.2743764172"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Music_Layer_Ambient_BassDrum" ID="{D112CCC8-B7C6-402B-92A4-9031D243675F}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{9503AC92-8245-4582-9339-92B925ADA24C}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>64.85927</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{9305A9A1-5FEF-4902-905F-6265CFAC6A86}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>64.85927</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{0D92D476-FED4-4538-8183-B7AA102E2C68}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>64.85927</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="Music_Layer_Ambient_Cello" ID="{95E9D431-EF64-4804-984C-D36D1DCCFBCD}" ShortID="303176266">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Music_Layer_Ambient_Cello" ID="{3974D725-3047-44D8-A46A-BF8270ACBADB}" ShortID="374022074">
+													<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Bay Area Sound, Inc.
+With the help of Damian Kastbauer for Lost Chocolate Lab.
+(c) 2012 Bay Area Sound, Inc.
+www.basound.com
+
+The Audio Content contained in this file is the property of Bay Area Sound, Inc.
+Your sole right with regard to this Audio Content is to listen to the Audio 
+Content as part of this Sample Project.  This Audio Content cannot be used
+or modified for a commercial purpose nor for public demonstration.</Comment>
+													<Language>SFX</Language>
+													<AudioFile>Music\Music_Layer_Ambient_Cello.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{8D50065E-85FC-42F8-B181-1DB8CA08D080}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{F6A930D1-B3CC-4EDC-89B3-103B2D9E2757}">
+													<ClipList>
+														<MusicClip Name="Music_Layer_Ambient_Cello" ID="{78D41283-9F74-4B6D-B0E4-48F8621FBC09}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="57834.0397218998"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Music_Layer_Ambient_Cello" ID="{3974D725-3047-44D8-A46A-BF8270ACBADB}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{783FAFD5-F2CC-41CA-8967-12441B4BE120}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>57.83404</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{D47B1F62-26A7-4309-ABC3-E6A8F9FAE959}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>57.83404</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{11D947EE-D267-41AD-B619-13299281A7E7}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>57.83404</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="Music_Layer_Ambient_Cymbals" ID="{A95E40C3-F825-488F-A1A9-1A99207DB2B8}" ShortID="809302533">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{27584E9B-DB0D-4E61-892C-D4FFE6FBC3A7}" ShortID="300468151">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Danger" ID="{08F00D7E-BB3D-4EEB-B80C-45CE51C444D8}" WorkUnitID="{74EAB309-0EF5-4D0F-87E2-A8456F9875B0}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{6832BBD4-8949-465E-9454-177205B2CFCA}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-96.3</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>49.88161</XPos>
+																		<YPos>-96.3</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Music_Layer_Ambient_Cymbals" ID="{42C4FB22-CB3D-4DE3-BABE-55CC5017E047}" ShortID="309447935">
+													<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Bay Area Sound, Inc.
+With the help of Damian Kastbauer for Lost Chocolate Lab.
+(c) 2012 Bay Area Sound, Inc.
+www.basound.com
+
+The Audio Content contained in this file is the property of Bay Area Sound, Inc.
+Your sole right with regard to this Audio Content is to listen to the Audio 
+Content as part of this Sample Project.  This Audio Content cannot be used
+or modified for a commercial purpose nor for public demonstration.</Comment>
+													<Language>SFX</Language>
+													<AudioFile>Music\Music_Layer_Ambient_Cymbals.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{E25582F3-ECCE-4707-B2F1-5FAB96B3DBF9}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{119865B5-CF31-4202-9D40-46D5C274EB2F}">
+													<ClipList>
+														<MusicClip Name="Music_Layer_Ambient_Cymbals" ID="{E224C408-630B-4C93-A611-6DAFAA7C6A7F}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="107946.062212919"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Music_Layer_Ambient_Cymbals" ID="{42C4FB22-CB3D-4DE3-BABE-55CC5017E047}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="Music_Layer_Ambient_FrenchHorns" ID="{652FAE3C-6A30-47CD-821B-68D7F275AD6B}" ShortID="736515322">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{1E2BA51C-1F26-43DA-B406-BEE869F3CAB3}" ShortID="860436898">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Danger" ID="{08F00D7E-BB3D-4EEB-B80C-45CE51C444D8}" WorkUnitID="{74EAB309-0EF5-4D0F-87E2-A8456F9875B0}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{EF3168B8-248D-409C-B46B-D50F4C64F349}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-96.3</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Exp3</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>49.88161</XPos>
+																		<YPos>-96.3</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Exp3</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Music_Layer_Ambient_FrenchHorns" ID="{9D016FF0-D32A-4AE5-B0ED-12D10D63F089}" ShortID="13880369">
+													<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Bay Area Sound, Inc.
+With the help of Damian Kastbauer for Lost Chocolate Lab.
+(c) 2012 Bay Area Sound, Inc.
+www.basound.com
+
+The Audio Content contained in this file is the property of Bay Area Sound, Inc.
+Your sole right with regard to this Audio Content is to listen to the Audio 
+Content as part of this Sample Project.  This Audio Content cannot be used
+or modified for a commercial purpose nor for public demonstration.</Comment>
+													<Language>SFX</Language>
+													<AudioFile>Music\Music_Layer_Ambient_FrenchHorns.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{65407DA1-9095-475A-97B1-E098C6B999F4}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{0A51A6C6-E2FC-4337-A6C9-73435C450BA5}">
+													<ClipList>
+														<MusicClip Name="Music_Layer_Ambient_FrenchHorns" ID="{E7D73B28-F1F3-4852-B3A5-F98951333358}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="51017.641723356"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Music_Layer_Ambient_FrenchHorns" ID="{9D016FF0-D32A-4AE5-B0ED-12D10D63F089}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{C2F38E7C-34D8-4113-9E66-73C4239A4160}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>51.01764</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{EB3F4E57-E638-475B-8341-39ABD5AC3505}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>51.01764</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{6448B824-CA9C-4DBB-A124-B948C4A39418}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>51.01764</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="Music_Layer_Ambient_MaleChoir" ID="{C44FC863-976E-429A-AB51-8ED586250466}" ShortID="801279773">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{6CC56E87-0FE0-4A82-BD35-33B48D40026F}" ShortID="764574658">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Danger" ID="{08F00D7E-BB3D-4EEB-B80C-45CE51C444D8}" WorkUnitID="{74EAB309-0EF5-4D0F-87E2-A8456F9875B0}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{0E90453C-FBCD-43CB-A740-92D640BC32CD}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-96.3</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Exp3</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Music_Layer_Ambient_MaleChoir" ID="{DB165FBE-C1B2-4B96-99A9-CE3298CF6E36}" ShortID="916997594">
+													<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Bay Area Sound, Inc.
+With the help of Damian Kastbauer for Lost Chocolate Lab.
+(c) 2012 Bay Area Sound, Inc.
+www.basound.com
+
+The Audio Content contained in this file is the property of Bay Area Sound, Inc.
+Your sole right with regard to this Audio Content is to listen to the Audio 
+Content as part of this Sample Project.  This Audio Content cannot be used
+or modified for a commercial purpose nor for public demonstration.</Comment>
+													<Language>SFX</Language>
+													<AudioFile>Music\Music_Layer_Ambient_MaleChoir.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{7DE39DC9-ADF3-4132-8CC8-9AF096B2760E}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{EB7A6276-6B35-4115-A1BB-FFA0F5D8BC57}">
+													<ClipList>
+														<MusicClip Name="Music_Layer_Ambient_MaleChoir" ID="{1A4F0D99-AE25-44CD-9EAF-0A53E28AA9D3}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="81834.0397218998"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Music_Layer_Ambient_MaleChoir" ID="{DB165FBE-C1B2-4B96-99A9-CE3298CF6E36}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{FAD9C694-48D4-4DA8-B783-447FF5437815}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>81.83404</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{0D8C9C6F-656C-43CB-A8E7-7B11D2BF018D}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>81.83404</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{ABBEA996-F701-4C41-B2D7-014DC2865FA3}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>81.83404</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="Music_Layer_Ambient_Timpani" ID="{0FC3ACF2-4A09-4E1E-8AB9-B647847FA8AD}" ShortID="920356521">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Music_Layer_Ambient_Timpani" ID="{FF5828A0-7C29-481F-92B9-E5DF08E770DA}" ShortID="157940950">
+													<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Bay Area Sound, Inc.
+With the help of Damian Kastbauer for Lost Chocolate Lab.
+(c) 2012 Bay Area Sound, Inc.
+www.basound.com
+
+The Audio Content contained in this file is the property of Bay Area Sound, Inc.
+Your sole right with regard to this Audio Content is to listen to the Audio 
+Content as part of this Sample Project.  This Audio Content cannot be used
+or modified for a commercial purpose nor for public demonstration.</Comment>
+													<Language>SFX</Language>
+													<AudioFile>Music\Music_Layer_Ambient_Timpani.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{5453E293-B33D-4F02-AA5B-BD626132B5E4}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{BBB9EDA0-14F2-4625-85A1-1F6209BD91B5}">
+													<ClipList>
+														<MusicClip Name="Music_Layer_Ambient_Timpani" ID="{37A44CDB-D2F2-4667-9FA3-F54D3EB83DA4}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="92000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Music_Layer_Ambient_Timpani" ID="{FF5828A0-7C29-481F-92B9-E5DF08E770DA}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{16640811-C94F-4AAF-BDCF-1C1E757613D1}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>92</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{9176B0C2-AD66-4791-BC7E-D9F569A2D19C}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>92</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{41D966F3-022D-43BF-9D7C-36B31C7A326D}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>92</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="Music_Layer_Ambient_Trombones" ID="{EF896BEA-1137-4320-9DBB-2E9A429F8572}" ShortID="436098778">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{D112D346-7482-47E0-92C5-7616DEDA12F1}" ShortID="932103104">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Danger" ID="{08F00D7E-BB3D-4EEB-B80C-45CE51C444D8}" WorkUnitID="{74EAB309-0EF5-4D0F-87E2-A8456F9875B0}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{2CDF4379-CEEF-4E37-8ED7-250B215232AA}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-96.3</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Exp3</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Music_Layer_Ambient_Trombones" ID="{00CCC686-2AC9-4F34-AAB0-E2C300199CC0}" ShortID="11691288">
+													<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Bay Area Sound, Inc.
+With the help of Damian Kastbauer for Lost Chocolate Lab.
+(c) 2012 Bay Area Sound, Inc.
+www.basound.com
+
+The Audio Content contained in this file is the property of Bay Area Sound, Inc.
+Your sole right with regard to this Audio Content is to listen to the Audio 
+Content as part of this Sample Project.  This Audio Content cannot be used
+or modified for a commercial purpose nor for public demonstration.</Comment>
+													<Language>SFX</Language>
+													<AudioFile>Music\Music_Layer_Ambient_Trombones.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{B73CA816-449B-405D-8FC6-6011DDD3A1CB}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{F142B072-A563-4FC1-99E0-D5CA5111C5CB}">
+													<ClipList>
+														<MusicClip Name="Music_Layer_Ambient_Trombones" ID="{4818736B-7140-4B01-B317-CFD3C1FDFF7F}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="59001.6099773243"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Music_Layer_Ambient_Trombones" ID="{00CCC686-2AC9-4F34-AAB0-E2C300199CC0}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{0D60B9B8-B686-4A09-A36C-CF578C2D391E}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>59.00161</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{2E518A25-5D39-4D31-8F79-C2FDF0549836}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>59.00161</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{4020CC23-6E02-4F03-B12D-BF283D1D5A07}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>59.00161</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="Music_Layer_Ambient_TubularBells" ID="{3ACCF0EA-4C51-4DB9-87E2-53F157F8C44D}" ShortID="601760872">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Music_Layer_Ambient_TubularBells" ID="{84CD11A6-9C59-410E-AB31-99BD42801A13}" ShortID="243221567">
+													<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Bay Area Sound, Inc.
+With the help of Damian Kastbauer for Lost Chocolate Lab.
+(c) 2012 Bay Area Sound, Inc.
+www.basound.com
+
+The Audio Content contained in this file is the property of Bay Area Sound, Inc.
+Your sole right with regard to this Audio Content is to listen to the Audio 
+Content as part of this Sample Project.  This Audio Content cannot be used
+or modified for a commercial purpose nor for public demonstration.</Comment>
+													<Language>SFX</Language>
+													<AudioFile>Music\Music_Layer_Ambient_TubularBells.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="182990064"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{9C2E6915-5986-4AC0-A3D3-870B5C3344F6}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{72899611-AD0A-4CC7-9FAB-4AE85F04CF59}">
+													<ClipList>
+														<MusicClip Name="Music_Layer_Ambient_TubularBells" ID="{F9C2D5A3-807F-40DA-A2AE-62BB7B30F807}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="71766.0090702948"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Music_Layer_Ambient_TubularBells" ID="{84CD11A6-9C59-410E-AB31-99BD42801A13}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{1C02F25B-EE86-43A3-9ED4-DED20695450F}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>71.76601</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{A7F6CA73-40BD-4F0F-8D96-EF5AB4BDE3B0}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>71.76601</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{02EB0884-9BBC-4997-87BD-29E7D66A7672}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>71.76601</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{40BB5CA2-A596-456C-84FC-CFB261BF3B50}">
+											<PropertyList>
+												<Property Name="TimeMs" Type="Real64" Value="1881.73324925583"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="Exit Cue" ID="{36AC9FF9-CA11-429B-8809-BE2D56B7FCA5}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="97881.7332492558"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{1F72DD06-80B5-43A0-AA5A-B199F2DE634E}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{02E537A1-C389-4DDA-AC5F-4489819111D0}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{C723E42A-E72C-4D6F-8647-0FDC443810DC}" ShortID="178019342">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{E7B4D5FE-5DAB-48B2-9F23-C98E18422740}" ShortID="50239696">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Ambient_Layered" ID="{28C5E98B-8F04-4A4A-9D65-82984AB4BBF0}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicSegment Name="Music_Action_Theme_End" ID="{06E09252-281D-46A1-9868-66A7A237E8C1}" ShortID="268854808">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="17512.4263038549"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80BE8EEB-3F19-43CD-9BCB-5157D976053A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Music_Action_Theme_End" ID="{2A658B12-1E17-44E7-9DFB-41FAEA427170}" ShortID="589468096">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Music_Sequence_Action_Theme_End" ID="{28AA619C-3A40-4403-A8E7-C1712BC4B747}" ShortID="912874604">
+											<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Bay Area Sound, Inc.
+With the help of Damian Kastbauer for Lost Chocolate Lab.
+(c) 2012 Bay Area Sound, Inc.
+www.basound.com
+
+The Audio Content contained in this file is the property of Bay Area Sound, Inc.
+Your sole right with regard to this Audio Content is to listen to the Audio 
+Content as part of this Sample Project.  This Audio Content cannot be used
+or modified for a commercial purpose nor for public demonstration.</Comment>
+											<Language>SFX</Language>
+											<AudioFile>Music\Music_Sequence_Action_Theme_End.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{DFF5E738-7183-4FA5-ADDA-530136A8CED4}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{793B9D86-4FAA-45ED-8EE3-0DC2F31D809F}">
+											<ClipList>
+												<MusicClip Name="Music_Sequence_Action_Theme_End" ID="{3AA2C428-59DA-4A21-B2FB-1059FAD28048}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="17512.4263038549"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Music_Sequence_Action_Theme_End" ID="{28AA619C-3A40-4403-A8E7-C1712BC4B747}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{42B6FAC3-0156-4156-9B6F-D6849BC2CA0D}"/>
+								<MusicCue Name="Exit Cue" ID="{581B9FDD-86D6-45C6-93DF-9FF3F068FCF6}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="17512.4263038549"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{E43439F6-824A-4716-B8D2-72A0F5FE5FFC}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{62821E8B-3718-43C4-A70A-2FB75CD58C3F}">
+									<PropertyList>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+										<Property Name="UseTransitionObject" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{E5A8D43B-C667-4691-9C40-0057D9FF2665}">
+												<PropertyList>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+									</TransitionInfo>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{F4994573-B65E-4B03-A6C9-DB53F68147A1}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="3"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="Action_Music_Loop" ID="{8852D101-B3E5-4E0F-81C9-ACE21B19A9A0}" WorkUnitID="{7EEF7DFB-FB01-49A6-ADE2-D0FF894FF235}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="Ambient_Music_Loop" ID="{B3826365-E29A-4C3B-BDE3-4D0351879A60}" WorkUnitID="{7EEF7DFB-FB01-49A6-ADE2-D0FF894FF235}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<JumpToPlaylistItemRef Name="" ID="{6D0F335D-449C-458C-99AB-58F4E77831FD}"/>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{35059390-FD39-4D5E-993B-0A49D1767A67}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="0"/>
+													<Property Name="FadeOffset" Type="Real64" Value="1"/>
+													<Property Name="FadeTime" Type="Real64" Value="2"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+									</TransitionInfo>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{C2EA80F2-1477-4BBC-B766-D8CB3BF2D99A}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+										<Property Name="UseTransitionObject" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="Ambient_Music_Loop" ID="{B3826365-E29A-4C3B-BDE3-4D0351879A60}" WorkUnitID="{7EEF7DFB-FB01-49A6-ADE2-D0FF894FF235}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="Action_Music_Loop" ID="{8852D101-B3E5-4E0F-81C9-ACE21B19A9A0}" WorkUnitID="{7EEF7DFB-FB01-49A6-ADE2-D0FF894FF235}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<JumpToPlaylistItemRef Name="" ID="{C723E42A-E72C-4D6F-8647-0FDC443810DC}"/>
+										<TransitionObjectRef Name="Music_Action_Theme_End" ID="{06E09252-281D-46A1-9868-66A7A237E8C1}" WorkUnitID="{7EEF7DFB-FB01-49A6-ADE2-D0FF894FF235}"/>
+									</TransitionInfo>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<ArgumentList>
+						<ArgumentRef Name="gameplay" ID="{DF3E79FF-95A7-4A9E-9B20-B4205F3B319C}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="action" ID="{24CBC365-E7A0-4E8C-A4C2-BA1D246C02C3}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Action_Music_Loop" ID="{8852D101-B3E5-4E0F-81C9-ACE21B19A9A0}" WorkUnitID="{7EEF7DFB-FB01-49A6-ADE2-D0FF894FF235}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="ambient" ID="{70F64D78-3778-43DE-80F4-3A18FF362E47}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Ambient_Music_Loop" ID="{B3826365-E29A-4C3B-BDE3-4D0351879A60}" WorkUnitID="{7EEF7DFB-FB01-49A6-ADE2-D0FF894FF235}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="gameplay" ID="{DF3E79FF-95A7-4A9E-9B20-B4205F3B319C}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Ambient_Music_Loop" ID="{B3826365-E29A-4C3B-BDE3-4D0351879A60}" WorkUnitID="{7EEF7DFB-FB01-49A6-ADE2-D0FF894FF235}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
+				</MusicSwitchContainer>
+				<MusicPlaylistContainer Name="Menu_Music" ID="{1BEE3566-F5BC-4D13-8454-668E97E77908}" ShortID="229501444">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80BE8EEB-3F19-43CD-9BCB-5157D976053A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="Ambient_Layered" ID="{8C1B673B-EC35-4D47-88F0-265352B1D908}" ShortID="604900374">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="137218.219549084"/>
+								<Property Name="Tempo" Type="Real64" Value="60"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80BE8EEB-3F19-43CD-9BCB-5157D976053A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Music_Layer_Ambient_Alpenhorn" ID="{9C5F1FA3-2EAB-45F6-8650-2086817A7736}" ShortID="1030623530">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Music_Layer_Ambient_Alpenhorn" ID="{3499241C-7E8D-49AA-ADF9-E0D3648A0AFC}" ShortID="506985150">
+											<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Bay Area Sound, Inc.
+With the help of Damian Kastbauer for Lost Chocolate Lab.
+(c) 2012 Bay Area Sound, Inc.
+www.basound.com
+
+The Audio Content contained in this file is the property of Bay Area Sound, Inc.
+Your sole right with regard to this Audio Content is to listen to the Audio 
+Content as part of this Sample Project.  This Audio Content cannot be used
+or modified for a commercial purpose nor for public demonstration.</Comment>
+											<Language>SFX</Language>
+											<AudioFile>Music\Music_Layer_Ambient_Alpenhorn.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{37AC8A38-F706-497D-ADC0-4E2917FFEAA4}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{3D583CA8-52DF-4311-83D7-FA57D1B41E6B}">
+											<ClipList>
+												<MusicClip Name="Music_Layer_Ambient_Alpenhorn" ID="{C2D81F2D-F09F-4D04-8617-D3F8F9D9F60B}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="53834.0397218998"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Music_Layer_Ambient_Alpenhorn" ID="{3499241C-7E8D-49AA-ADF9-E0D3648A0AFC}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Music_Layer_Ambient_Bass" ID="{2A1AB711-448A-4AF4-A732-E83593EC1779}" ShortID="567541957">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Music_Layer_Ambient_Bass" ID="{B0452036-1271-48D4-8FB8-08CF8BF74B9E}" ShortID="619991341">
+											<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Bay Area Sound, Inc.
+With the help of Damian Kastbauer for Lost Chocolate Lab.
+(c) 2012 Bay Area Sound, Inc.
+www.basound.com
+
+The Audio Content contained in this file is the property of Bay Area Sound, Inc.
+Your sole right with regard to this Audio Content is to listen to the Audio 
+Content as part of this Sample Project.  This Audio Content cannot be used
+or modified for a commercial purpose nor for public demonstration.</Comment>
+											<Language>SFX</Language>
+											<AudioFile>Music\Music_Layer_Ambient_Bass.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="460710904"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{6DCFFFB8-3A63-4C56-9FEB-2F054CC86FF5}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{45DA236C-37CD-40CC-95B4-D5C506F06BAF}">
+											<ClipList>
+												<MusicClip Name="Music_Layer_Ambient_Bass" ID="{929040F1-9D3B-4B80-A957-81FC0F8431D4}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="101312.34583406"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Music_Layer_Ambient_Bass" ID="{B0452036-1271-48D4-8FB8-08CF8BF74B9E}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Music_Layer_Ambient_BassDrum" ID="{223E60B9-AB52-4F19-AA25-C228D6B6463D}" ShortID="700897304">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value Platform="Windows">False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Music_Layer_Ambient_BassDrum" ID="{2C1D45DD-DE37-474A-865F-2D27AE451DE1}" ShortID="1004730799">
+											<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Bay Area Sound, Inc.
+With the help of Damian Kastbauer for Lost Chocolate Lab.
+(c) 2012 Bay Area Sound, Inc.
+www.basound.com
+
+The Audio Content contained in this file is the property of Bay Area Sound, Inc.
+Your sole right with regard to this Audio Content is to listen to the Audio 
+Content as part of this Sample Project.  This Audio Content cannot be used
+or modified for a commercial purpose nor for public demonstration.</Comment>
+											<Language>SFX</Language>
+											<AudioFile>Music\Music_Layer_Ambient_BassDrum.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="287213008"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{CE354FA7-993B-4CCB-AC39-CBDC989E5616}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{6021AC63-1D7B-4FE2-A6E7-A8CA45AD61E9}">
+											<ClipList>
+												<MusicClip Name="Music_Layer_Ambient_BassDrum" ID="{10DEF326-52B6-4A67-8526-74E55160BDFA}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="112000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Music_Layer_Ambient_BassDrum" ID="{2C1D45DD-DE37-474A-865F-2D27AE451DE1}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Music_Layer_Ambient_Cello" ID="{8E10A26F-EDF3-472A-9F9D-46D1915D22B9}" ShortID="1050916913">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Music_Layer_Ambient_Cello" ID="{5C9B03BC-D84A-489B-9201-389352CFE906}" ShortID="755981381">
+											<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Bay Area Sound, Inc.
+With the help of Damian Kastbauer for Lost Chocolate Lab.
+(c) 2012 Bay Area Sound, Inc.
+www.basound.com
+
+The Audio Content contained in this file is the property of Bay Area Sound, Inc.
+Your sole right with regard to this Audio Content is to listen to the Audio 
+Content as part of this Sample Project.  This Audio Content cannot be used
+or modified for a commercial purpose nor for public demonstration.</Comment>
+											<Language>SFX</Language>
+											<AudioFile>Music\Music_Layer_Ambient_Cello.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="374022074"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{6D43E474-94C7-4B51-AC5A-CE944042D31F}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{6F6A7EEC-6E75-4F5D-8811-691B3E36678A}">
+											<ClipList>
+												<MusicClip Name="Music_Layer_Ambient_Cello" ID="{B701D35E-2EF9-4355-BDFC-74811B6D2270}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="101496.615733473"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Music_Layer_Ambient_Cello" ID="{5C9B03BC-D84A-489B-9201-389352CFE906}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Music_Layer_Ambient_Cymbals" ID="{2049FE67-D7FF-47E3-8110-463F05D37C5E}" ShortID="168145918">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value Platform="Windows">False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Music_Layer_Ambient_Cymbals" ID="{E0C2A05A-C614-4945-B79E-FBF9859D33CA}" ShortID="583477955">
+											<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Bay Area Sound, Inc.
+With the help of Damian Kastbauer for Lost Chocolate Lab.
+(c) 2012 Bay Area Sound, Inc.
+www.basound.com
+
+The Audio Content contained in this file is the property of Bay Area Sound, Inc.
+Your sole right with regard to this Audio Content is to listen to the Audio 
+Content as part of this Sample Project.  This Audio Content cannot be used
+or modified for a commercial purpose nor for public demonstration.</Comment>
+											<Language>SFX</Language>
+											<AudioFile>Music\Music_Layer_Ambient_Cymbals.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="309447935"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{1B12CB8B-6CA2-4F8A-8317-C7B99FF8F503}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{6C86B403-287E-44C2-8D2B-9BEEB01F8068}">
+											<ClipList>
+												<MusicClip Name="Music_Layer_Ambient_Cymbals" ID="{913BEF5D-1D19-4F66-8891-6AE10B07EEAA}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="107946.062212919"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Music_Layer_Ambient_Cymbals" ID="{E0C2A05A-C614-4945-B79E-FBF9859D33CA}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Music_Layer_Ambient_FrenchHorns" ID="{FC2F3328-86FE-4100-8470-C818A3660C5F}" ShortID="685986549">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Music_Layer_Ambient_FrenchHorns" ID="{9A25582C-8559-4881-BD41-7B29443566E8}" ShortID="825365845">
+											<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Bay Area Sound, Inc.
+With the help of Damian Kastbauer for Lost Chocolate Lab.
+(c) 2012 Bay Area Sound, Inc.
+www.basound.com
+
+The Audio Content contained in this file is the property of Bay Area Sound, Inc.
+Your sole right with regard to this Audio Content is to listen to the Audio 
+Content as part of this Sample Project.  This Audio Content cannot be used
+or modified for a commercial purpose nor for public demonstration.</Comment>
+											<Language>SFX</Language>
+											<AudioFile>Music\Music_Layer_Ambient_FrenchHorns.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="13880369"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{5EE806A8-18CE-4144-8968-96AA7AAF5E9F}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{2D91D113-C07E-4369-86EB-24DCD5AB5D05}">
+											<ClipList>
+												<MusicClip Name="Music_Layer_Ambient_FrenchHorns" ID="{C6A92962-B496-4292-B592-0051FB13C577}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="111262.920402349"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Music_Layer_Ambient_FrenchHorns" ID="{9A25582C-8559-4881-BD41-7B29443566E8}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Music_Layer_Ambient_MaleChoir" ID="{3D033ABD-17B0-40CE-B659-4F4FB229F3BC}" ShortID="758355463">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value Platform="Windows">False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Music_Layer_Ambient_MaleChoir" ID="{CA4F98DF-576F-4257-B380-3968E57B5F64}" ShortID="990979726">
+											<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Bay Area Sound, Inc.
+With the help of Damian Kastbauer for Lost Chocolate Lab.
+(c) 2012 Bay Area Sound, Inc.
+www.basound.com
+
+The Audio Content contained in this file is the property of Bay Area Sound, Inc.
+Your sole right with regard to this Audio Content is to listen to the Audio 
+Content as part of this Sample Project.  This Audio Content cannot be used
+or modified for a commercial purpose nor for public demonstration.</Comment>
+											<Language>SFX</Language>
+											<AudioFile>Music\Music_Layer_Ambient_MaleChoir.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="916997594"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{31963B01-F1FF-4114-9D12-E1F42C6594F3}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{FF3CD113-5687-4C1B-8679-2210227A88AD}">
+											<ClipList>
+												<MusicClip Name="Music_Layer_Ambient_MaleChoir" ID="{EB058232-BDA9-42D6-9A7B-EF19BEF02D6D}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="112000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Music_Layer_Ambient_MaleChoir" ID="{CA4F98DF-576F-4257-B380-3968E57B5F64}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Music_Layer_Ambient_Timpani" ID="{319333D0-6959-4A62-842A-59C725D520C2}" ShortID="630248137">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value Platform="Windows">False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Music_Layer_Ambient_Timpani" ID="{460BD7B6-FF96-4577-A396-5B97AFA8503B}" ShortID="265222209">
+											<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Bay Area Sound, Inc.
+With the help of Damian Kastbauer for Lost Chocolate Lab.
+(c) 2012 Bay Area Sound, Inc.
+www.basound.com
+
+The Audio Content contained in this file is the property of Bay Area Sound, Inc.
+Your sole right with regard to this Audio Content is to listen to the Audio 
+Content as part of this Sample Project.  This Audio Content cannot be used
+or modified for a commercial purpose nor for public demonstration.</Comment>
+											<Language>SFX</Language>
+											<AudioFile>Music\Music_Layer_Ambient_Timpani.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="157940950"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{0FFB0305-EB90-4C27-BB76-C385805598C3}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{85AF8263-AA0C-4DDC-9B31-E80FE82E8B4A}">
+											<ClipList>
+												<MusicClip Name="Music_Layer_Ambient_Timpani" ID="{50E5CA43-F454-45FB-B54E-7A83D091A56D}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="112000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Music_Layer_Ambient_Timpani" ID="{460BD7B6-FF96-4577-A396-5B97AFA8503B}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Music_Layer_Ambient_Trombones" ID="{0F471B66-4417-423F-8A96-9A6A8D40D603}" ShortID="701509201">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value Platform="Windows">False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Music_Layer_Ambient_Trombones" ID="{A2667439-4AE2-48F2-B997-60B53C3B9B4A}" ShortID="615739972">
+											<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Bay Area Sound, Inc.
+With the help of Damian Kastbauer for Lost Chocolate Lab.
+(c) 2012 Bay Area Sound, Inc.
+www.basound.com
+
+The Audio Content contained in this file is the property of Bay Area Sound, Inc.
+Your sole right with regard to this Audio Content is to listen to the Audio 
+Content as part of this Sample Project.  This Audio Content cannot be used
+or modified for a commercial purpose nor for public demonstration.</Comment>
+											<Language>SFX</Language>
+											<AudioFile>Music\Music_Layer_Ambient_Trombones.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="11691288"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{3379C2A0-15EF-45CD-AE11-E7B73394BBC0}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{3EE13313-A533-4578-B676-C13CCED10982}">
+											<ClipList>
+												<MusicClip Name="Music_Layer_Ambient_Trombones" ID="{0B652094-4ACF-4853-9062-E4C872460882}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="112000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Music_Layer_Ambient_Trombones" ID="{A2667439-4AE2-48F2-B997-60B53C3B9B4A}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Music_Layer_Ambient_TubularBells" ID="{3E5D9A39-2E6D-47EB-85D7-0D093A9E1F95}" ShortID="287033518">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value Platform="Windows">False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Music_Layer_Ambient_TubularBells" ID="{1345D6A0-6B65-408A-9188-C3793D5351ED}" ShortID="182990064">
+											<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Bay Area Sound, Inc.
+With the help of Damian Kastbauer for Lost Chocolate Lab.
+(c) 2012 Bay Area Sound, Inc.
+www.basound.com
+
+The Audio Content contained in this file is the property of Bay Area Sound, Inc.
+Your sole right with regard to this Audio Content is to listen to the Audio 
+Content as part of this Sample Project.  This Audio Content cannot be used
+or modified for a commercial purpose nor for public demonstration.</Comment>
+											<Language>SFX</Language>
+											<AudioFile>Music\Music_Layer_Ambient_TubularBells.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{44634710-5D7C-4166-A04C-90773ED13447}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{21717A58-F4CD-4EDB-8675-A38146B47792}">
+											<ClipList>
+												<MusicClip Name="Music_Layer_Ambient_TubularBells" ID="{BA7EEE98-44C5-433E-95E6-29B6C12ABE51}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="112000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Music_Layer_Ambient_TubularBells" ID="{1345D6A0-6B65-408A-9188-C3793D5351ED}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{E5AA63E2-7863-43BB-A3FB-A337C291A988}">
+									<PropertyList>
+										<Property Name="TimeMs" Type="Real64" Value="1834.0397218998"/>
+									</PropertyList>
+								</MusicCue>
+								<MusicCue Name="Exit Cue" ID="{DE0BF45D-FE00-405D-ADBF-CF3EFE9A3FC6}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="108085.883599319"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{8D544E80-5B60-4407-A610-369A03A7877F}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{9C159F72-4D7F-4057-9C18-0E60428AC506}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{560BD8EA-4F5B-407A-9DFB-B7FD816E30D7}" ShortID="31109312">
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{25DC634A-B91D-484F-AB64-421ED2222465}" ShortID="879803553">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Ambient_Layered" ID="{8C1B673B-EC35-4D47-88F0-265352B1D908}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+				<MusicPlaylistContainer Name="MIDI_Project_Adventure" ID="{BA0B68F2-EFAB-407F-9330-3F0AD3906C43}" ShortID="591046373">
+					<PropertyList>
+						<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+						<Property Name="MidiTempoSource" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80BE8EEB-3F19-43CD-9BCB-5157D976053A}"/>
+						</Reference>
+						<Reference Name="MidiTarget">
+							<ObjectRef Name="MIDI_Project_Adventure_Multiple_MIDI_Tracks_Single_MIDI_Channel" ID="{FF0CDF10-F7E3-49C3-8580-6A97683B8ECA}" WorkUnitID="{AAF89608-DACC-4417-A53B-470A8E65CACD}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="MIDI_Project_Adventure_Single_MIDI_Track_Multiple_MIDI_Channels" ID="{ED341443-2AD4-4101-8E41-61CCF6C9DA6D}" ShortID="219951806">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="41142.3703568231"/>
+								<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+								<Property Name="MidiTempoSource" Type="int16" Value="1"/>
+								<Property Name="OverrideMidiTarget" Type="bool" Value="True"/>
+								<Property Name="Tempo" Type="Real64" Value="140.000137329102"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80BE8EEB-3F19-43CD-9BCB-5157D976053A}"/>
+								</Reference>
+								<Reference Name="MidiTarget">
+									<ObjectRef Name="MIDI_Project_Adventure_Single_MIDI_Track_Multiple_MIDI_Channels" ID="{7364C738-CF3F-44A3-8D39-89C4F0E0672A}" WorkUnitID="{AAF89608-DACC-4417-A53B-470A8E65CACD}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Music" ID="{DA3F90D5-3E9A-4567-B4AC-61F7BE31814E}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="MIDI_Project_Adventure" ID="{CF6B076F-25F3-4C30-A3D3-E029E8662D63}" ShortID="537543390">
+									<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Jeff Edward Ball
+With the help of Damian Kastbauer for Lost Chocolate Lab.
+(c) 2014 Jeff Edward Ball
+www.jeffedwardball.com
+
+The Audio Content contained in this file is the property of Jeff Edward Ball
+Your sole right with regard to this MIDI Content is to listen to the Audio
+Content as part of this Sample Project.  This Audio Content cannot be used
+or modified for a commercial purpose nor for public demonstration.</Comment>
+									<PropertyList>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{4D7D21A9-A162-4B5E-AEA8-491CBF047B7E}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{E7BE5579-A82A-4B86-BC36-F831B8BA3855}">
+											<ClipList>
+												<MusicClipMidi Name="MIDI_Project_Adventure" ID="{E8D64AF3-B75E-45CE-A749-107AFD609671}" ShortID="112153953">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="20570.9619643448"/>
+														<Property Name="MidiFileName" Type="string" Value="Music\MIDI_Project_Adventure.mid"/>
+													</PropertyList>
+												</MusicClipMidi>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{B0F21A96-8040-4598-A35A-5CA0F8FEF134}"/>
+								<MusicCue Name="Exit Cue" ID="{0B81DE7B-EF6A-4726-BC57-B5D4974647A0}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="20571.4083924783"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="MIDI_Project_Adventure_Multiple_MIDI_Tracks_Single_MIDI_Channel" ID="{1C525216-A920-47DE-B2D5-ADD1C2DC32F9}" ShortID="227093503">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="22570.9619643448"/>
+								<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80BE8EEB-3F19-43CD-9BCB-5157D976053A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="MIDI_Project_Adventure_Bass" ID="{6E3136D4-F52A-4D4D-9866-5265C20E7575}" ShortID="81620811">
+									<PropertyList>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="OverrideMidiTarget" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="MidiTarget">
+											<ObjectRef Name="Synth_Bass" ID="{64CAF2A0-84CD-47FC-8133-6A21D87C385F}" WorkUnitID="{AAF89608-DACC-4417-A53B-470A8E65CACD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{2C5CA645-2840-4620-9DA2-8E797C55154C}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{0794A838-0B0D-4D32-90F9-307C3E645733}">
+											<ClipList>
+												<MusicClipMidi Name="MIDI_Project_Adventure_Bass" ID="{8ED719E4-C373-46BE-97AD-96FE015219E4}" ShortID="228291036">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="19928.5518802134"/>
+														<Property Name="MidiFileName" Type="string" Value="MIDI_Project_Adventure_Bass.mid"/>
+													</PropertyList>
+												</MusicClipMidi>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="MIDI_Project_Adventure_Drums" ID="{9936AD12-1C3C-44DF-87B5-6576BAC33540}" ShortID="421331948">
+									<PropertyList>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="OverrideMidiTarget" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="MidiTarget">
+											<ObjectRef Name="Synth_Drums" ID="{143887A1-5223-46E4-932C-926B5F0CDA17}" WorkUnitID="{AAF89608-DACC-4417-A53B-470A8E65CACD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{206B1D00-DA7B-4C51-B0CB-07836B35F190}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{8709CDE8-E957-4D95-A386-1238E9B96370}">
+											<ClipList>
+												<MusicClipMidi Name="MIDI_Project_Adventure_Drums" ID="{9D1C4D56-418B-4349-AD05-75635D414E4E}" ShortID="659457168">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="20570.9619643448"/>
+														<Property Name="MidiFileName" Type="string" Value="MIDI_Project_Adventure_Drums.mid"/>
+													</PropertyList>
+												</MusicClipMidi>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="MIDI_Project_Adventure_Square_01" ID="{A8F4E411-E1FD-4794-BBE2-45B7B67D5248}" ShortID="637086682">
+									<PropertyList>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="OverrideMidiTarget" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="MidiTarget">
+											<ObjectRef Name="Synth_Square_01" ID="{65D90836-FBEE-48B2-BCA9-A498292202FF}" WorkUnitID="{AAF89608-DACC-4417-A53B-470A8E65CACD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{7638387B-7AA9-49E9-8920-2F61391860BE}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{838A84B8-2C06-45A0-84F3-7EFCFA81ACDC}">
+											<ClipList>
+												<MusicClipMidi Name="MIDI_Project_Adventure_Square_01" ID="{B086B62F-E06D-46A5-8EF1-F3425C093D4D}" ShortID="369456052">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="19928.5518802134"/>
+														<Property Name="MidiFileName" Type="string" Value="MIDI_Project_Adventure_Square_01.mid"/>
+													</PropertyList>
+												</MusicClipMidi>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="MIDI_Project_Adventure_Square_02" ID="{7C2EDEC2-A5F8-4C62-8B87-BE2F36EA6EC7}" ShortID="72303544">
+									<PropertyList>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="OverrideMidiTarget" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="MidiTarget">
+											<ObjectRef Name="Synth_Square_02" ID="{A12B9FB5-9EB8-4A4F-BE05-792FFA15412D}" WorkUnitID="{AAF89608-DACC-4417-A53B-470A8E65CACD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{F354475E-C480-40E7-BEFD-9613CFCE014D}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{159D6CCD-9865-44C1-B49C-CDDD7310147B}">
+											<ClipList>
+												<MusicClipMidi Name="MIDI_Project_Adventure_Square_02" ID="{F191F1EE-5609-4731-BC65-7BBFB0F7294F}" ShortID="845894249">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="19928.5518802134"/>
+														<Property Name="MidiFileName" Type="string" Value="MIDI_Project_Adventure_Square_02.mid"/>
+													</PropertyList>
+												</MusicClipMidi>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{152ADC3E-F71F-4569-9093-E9026CB72328}"/>
+								<MusicCue Name="Exit Cue" ID="{2A04AFBD-00E1-4E80-91B5-1673EF06AED0}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="20570.9619643448"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{CFB37D11-04D2-40F2-8C81-A9381BD0F151}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{9C35FF23-1C4F-40F7-9B3F-695306F128AB}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{FDC62CB3-86E6-4CF8-AB57-B0DC719C2E69}" ShortID="630460205">
+							<PropertyList>
+								<Property Name="LoopCount" Type="int16" Value="0"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{8AD88A6B-C210-437A-AD66-93991548F631}" ShortID="745967360">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="MIDI_Project_Adventure_Multiple_MIDI_Tracks_Single_MIDI_Channel" ID="{1C525216-A920-47DE-B2D5-ADD1C2DC32F9}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{CAA4D1CE-755B-4FB6-80B2-F15283D75085}" ShortID="54164930">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="MIDI_Project_Adventure_Single_MIDI_Track_Multiple_MIDI_Channels" ID="{ED341443-2AD4-4101-8E41-61CCF6C9DA6D}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

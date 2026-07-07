@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AAF89608-DACC-4417-A53B-470A8E65CACD}" SchemaVersion="85">
+	<AudioObjects>
+		<WorkUnit Name="Instruments" ID="{AAF89608-DACC-4417-A53B-470A8E65CACD}" PersistMode="Standalone">
+			<ChildrenList>
+				<BlendContainer Name="MIDI_Project_Adventure_Multiple_MIDI_Tracks_Single_MIDI_Channel" ID="{FF0CDF10-F7E3-49C3-8580-6A97683B8ECA}" ShortID="515734013">
+					<PropertyList>
+						<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+						<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80BE8EEB-3F19-43CD-9BCB-5157D976053A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music" ID="{DA3F90D5-3E9A-4567-B4AC-61F7BE31814E}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Synth_Square_01" ID="{65D90836-FBEE-48B2-BCA9-A498292202FF}" ShortID="471654950">
+							<PropertyList>
+								<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+								<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{20E493E3-3D80-4DDE-B39F-4A6E9A1C6B02}" ShortID="1033811405">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="MIDI note velocity" ID="{B618CC3D-04FA-4149-A36B-37B8A1F2B642}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{460847F8-A357-4009-91D2-9D235C712019}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>127</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80BE8EEB-3F19-43CD-9BCB-5157D976053A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SourcePlugin Name="Wwise Synth One_Square_01" ID="{6A47F8E4-1EDA-4E5D-8566-36BCB5D45D5B}" ShortID="659920331" PluginName="Wwise Synth One" CompanyID="0" PluginID="148">
+									<PropertyList>
+										<Property Name="FmAmount" Type="Real32" Value="60"/>
+										<Property Name="FrequencyMode" Type="int32" Value="1"/>
+										<Property Name="Osc1Level" Type="Real32" Value="-7"/>
+										<Property Name="Osc1Waveform" Type="int32" Value="2"/>
+										<Property Name="Osc2Waveform" Type="int32" Value="2"/>
+										<Property Name="OutputLevel" Type="Real32">
+											<RTPCList>
+												<RTPC Name="" ID="{F223F0CD-9983-408F-841B-762A9B9AEF60}" ShortID="309086038">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<Custom CreatedFrom="{1D7E26D7-31BC-4E71-BEDA-3DEAD9AB4468}">
+																<ModulatorEnvelope Name="Modulator Envelope_MIDI_Output_Volume (Custom)" ID="{89430B7B-5101-4059-9C22-A0BA100DD0F4}" ShortID="947140075">
+																	<PropertyList>
+																		<Property Name="EnvelopeAttackTime" Type="Real64" Value="0.8"/>
+																		<Property Name="EnvelopeDecayTime" Type="Real64" Value="0.1"/>
+																		<Property Name="EnvelopeSustainLevel" Type="Real64" Value="1"/>
+																		<Property Name="EnvelopeSustainTime" Type="Real64" Value="1"/>
+																	</PropertyList>
+																</ModulatorEnvelope>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{BD1D2865-9FD5-42BE-A90E-0C5876EED1B3}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-96</YPos>
+																<Flags>21</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>53</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+								</SourcePlugin>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Wwise Synth One_Square_01" ID="{6A47F8E4-1EDA-4E5D-8566-36BCB5D45D5B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Synth_Drums" ID="{143887A1-5223-46E4-932C-926B5F0CDA17}" ShortID="279249912">
+							<PropertyList>
+								<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>25</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-1200</Value>
+									</ValueList>
+								</Property>
+								<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{D77B8FB9-164B-4D3B-B821-30432AAF40C6}" ShortID="38443873">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="MIDI note velocity" ID="{B618CC3D-04FA-4149-A36B-37B8A1F2B642}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{3475B3B3-841D-482F-999C-4FCA8F996DEF}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>127</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80BE8EEB-3F19-43CD-9BCB-5157D976053A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SourcePlugin Name="Wwise Synth One_Drums" ID="{FFF5A4BF-BB84-4205-B643-CD5FFD9D8029}" ShortID="1033961180" PluginName="Wwise Synth One" CompanyID="0" PluginID="148">
+									<PropertyList>
+										<Property Name="BaseFrequency" Type="Real32" Value="20"/>
+										<Property Name="FrequencyMode" Type="int32" Value="1"/>
+										<Property Name="NoiseLevel" Type="Real32" Value="0"/>
+										<Property Name="Osc1Level" Type="Real32" Value="-96"/>
+										<Property Name="Osc1Pwm" Type="Real32" Value="75"/>
+										<Property Name="Osc1Waveform" Type="int32" Value="3"/>
+										<Property Name="Osc2Level" Type="Real32" Value="-96"/>
+										<Property Name="Osc2Pwm" Type="Real32" Value="33"/>
+										<Property Name="Osc2Waveform" Type="int32" Value="3"/>
+										<Property Name="OutputLevel" Type="Real32">
+											<RTPCList>
+												<RTPC Name="" ID="{BA487B99-4EA5-4AF2-8AD3-CC76B1C43449}" ShortID="194442119">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Modulator Envelope_MIDI_Output_Volume" ID="{1D7E26D7-31BC-4E71-BEDA-3DEAD9AB4468}" WorkUnitID="{AE467873-27D1-4CEA-8778-0261C10F6323}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{A3CAFE10-CFDF-42B0-ADBF-772154891C4D}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-96</YPos>
+																<Flags>21</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>53</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+								</SourcePlugin>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Wwise Synth One_Drums" ID="{FFF5A4BF-BB84-4205-B643-CD5FFD9D8029}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Synth_Square_02" ID="{A12B9FB5-9EB8-4A4F-BE05-792FFA15412D}" ShortID="673611582">
+							<PropertyList>
+								<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+								<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{39921158-9922-4542-9BF8-4DF24D56D000}" ShortID="605280151">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="MIDI note velocity" ID="{B618CC3D-04FA-4149-A36B-37B8A1F2B642}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{496D68DF-818B-4A53-AA4E-76E3D4D79042}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>127</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80BE8EEB-3F19-43CD-9BCB-5157D976053A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SourcePlugin Name="Wwise Synth One_Square_02" ID="{51A293C2-DD13-4B3C-A2B4-B514DBDD40E4}" ShortID="783828824" PluginName="Wwise Synth One" CompanyID="0" PluginID="148">
+									<PropertyList>
+										<Property Name="FmAmount" Type="Real32" Value="60"/>
+										<Property Name="FrequencyMode" Type="int32" Value="1"/>
+										<Property Name="Osc1Level" Type="Real32" Value="-7"/>
+										<Property Name="Osc1Pwm" Type="Real32" Value="99.9"/>
+										<Property Name="Osc1Waveform" Type="int32" Value="2"/>
+										<Property Name="Osc2Waveform" Type="int32" Value="2"/>
+										<Property Name="OutputLevel" Type="Real32">
+											<RTPCList>
+												<RTPC Name="" ID="{6A82E434-C790-4AF5-AFEF-6C74E09A2669}" ShortID="578258624">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<Custom CreatedFrom="{1D7E26D7-31BC-4E71-BEDA-3DEAD9AB4468}">
+																<ModulatorEnvelope Name="Modulator Envelope_MIDI_Output_Volume (Custom)" ID="{30F8D40E-2F8D-42E4-B296-2D83E1568C7F}" ShortID="108247927">
+																	<PropertyList>
+																		<Property Name="EnvelopeAttackCurve" Type="Real64" Value="10"/>
+																		<Property Name="EnvelopeAttackTime" Type="Real64" Value="0.02"/>
+																		<Property Name="EnvelopeDecayTime" Type="Real64" Value="0.5"/>
+																		<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0.2"/>
+																		<Property Name="EnvelopeSustainLevel" Type="Real64" Value="0.2"/>
+																		<Property Name="EnvelopeSustainTime" Type="Real64" Value="0.01"/>
+																	</PropertyList>
+																</ModulatorEnvelope>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{1EC6F81E-2BEF-4A34-9F05-448FC5E54BE8}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-96</YPos>
+																<Flags>21</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>53</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+								</SourcePlugin>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Wwise Synth One_Square_02" ID="{51A293C2-DD13-4B3C-A2B4-B514DBDD40E4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Synth_Bass" ID="{64CAF2A0-84CD-47FC-8133-6A21D87C385F}" ShortID="350650945">
+							<PropertyList>
+								<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+								<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{F2DD0B3A-FA83-4E47-B215-5C54447289F7}" ShortID="190603090">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="MIDI note velocity" ID="{B618CC3D-04FA-4149-A36B-37B8A1F2B642}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{8EFAB54D-A5E8-4C66-B06F-6FFC00EF8B7C}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>127</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80BE8EEB-3F19-43CD-9BCB-5157D976053A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SourcePlugin Name="Wwise Synth One_Bass" ID="{B18253AF-5962-4920-A9D9-CFA3AED85288}" ShortID="619641266" PluginName="Wwise Synth One" CompanyID="0" PluginID="148">
+									<PropertyList>
+										<Property Name="FmAmount" Type="Real32" Value="23.7"/>
+										<Property Name="FrequencyMode" Type="int32" Value="1"/>
+										<Property Name="Osc1Level" Type="Real32" Value="-1"/>
+										<Property Name="Osc2Level" Type="Real32" Value="2"/>
+										<Property Name="Osc2Waveform" Type="int32" Value="3"/>
+										<Property Name="OutputLevel" Type="Real32">
+											<RTPCList>
+												<RTPC Name="" ID="{83803983-F5DD-4D1E-B6A9-92FBADA106A7}" ShortID="139748478">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<Custom CreatedFrom="{1D7E26D7-31BC-4E71-BEDA-3DEAD9AB4468}">
+																<ModulatorEnvelope Name="Modulator Envelope_MIDI_Output_Volume (Custom)" ID="{08433DE5-4A4E-41C1-ACFE-8A89825AFD64}" ShortID="105277243">
+																	<PropertyList>
+																		<Property Name="EnvelopeAttackCurve" Type="Real64" Value="10"/>
+																		<Property Name="EnvelopeAttackTime" Type="Real64" Value="0.05"/>
+																		<Property Name="EnvelopeDecayTime" Type="Real64" Value="0.5"/>
+																		<Property Name="EnvelopeReleaseTime" Type="Real64" Value="1"/>
+																		<Property Name="EnvelopeSustainLevel" Type="Real64" Value="0.1"/>
+																		<Property Name="EnvelopeSustainTime" Type="Real64" Value="0.01"/>
+																	</PropertyList>
+																</ModulatorEnvelope>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{13BE6983-A544-40E8-A450-8F8B3AAA3FC4}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-96</YPos>
+																<Flags>21</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>53</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+								</SourcePlugin>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Wwise Synth One_Bass" ID="{B18253AF-5962-4920-A9D9-CFA3AED85288}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</BlendContainer>
+				<BlendContainer Name="MIDI_Project_Adventure_Single_MIDI_Track_Multiple_MIDI_Channels" ID="{7364C738-CF3F-44A3-8D39-89C4F0E0672A}" ShortID="276051432">
+					<PropertyList>
+						<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+						<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80BE8EEB-3F19-43CD-9BCB-5157D976053A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music" ID="{DA3F90D5-3E9A-4567-B4AC-61F7BE31814E}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Synth_Square_01" ID="{9AA68DE6-1D28-4E19-805C-FE0823CAEA52}" ShortID="861424105">
+							<PropertyList>
+								<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+								<Property Name="MidiChannelFilter" Type="int32" Value="1"/>
+								<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{98118253-80AC-4546-A6F6-805112331751}" ShortID="780133114">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="MIDI note velocity" ID="{B618CC3D-04FA-4149-A36B-37B8A1F2B642}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{087B13CF-D566-4CE8-B929-E89463CAC8F5}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>127</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80BE8EEB-3F19-43CD-9BCB-5157D976053A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SourcePlugin Name="Wwise Synth One_Square_01" ID="{C0B9915C-6D25-4968-AB65-CE5F35772872}" ShortID="238847119" PluginName="Wwise Synth One" CompanyID="0" PluginID="148">
+									<PropertyList>
+										<Property Name="FmAmount" Type="Real32" Value="60"/>
+										<Property Name="FrequencyMode" Type="int32" Value="1"/>
+										<Property Name="Osc1Level" Type="Real32" Value="-7"/>
+										<Property Name="Osc1Waveform" Type="int32" Value="2"/>
+										<Property Name="Osc2Waveform" Type="int32" Value="2"/>
+										<Property Name="OutputLevel" Type="Real32">
+											<RTPCList>
+												<RTPC Name="" ID="{CA4887F8-BA55-4E9C-953B-9FEE7C7B1B14}" ShortID="487887721">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<Custom CreatedFrom="{1D7E26D7-31BC-4E71-BEDA-3DEAD9AB4468}">
+																<ModulatorEnvelope Name="Modulator Envelope_MIDI_Output_Volume (Custom)" ID="{9D101398-0755-4A56-942D-E15C042E8D3B}" ShortID="992767961">
+																	<PropertyList>
+																		<Property Name="EnvelopeAttackTime" Type="Real64" Value="0.8"/>
+																		<Property Name="EnvelopeDecayTime" Type="Real64" Value="0.1"/>
+																		<Property Name="EnvelopeSustainLevel" Type="Real64" Value="1"/>
+																		<Property Name="EnvelopeSustainTime" Type="Real64" Value="1"/>
+																	</PropertyList>
+																</ModulatorEnvelope>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{95E84EE9-3A3E-49DE-9CA5-440621996450}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-96</YPos>
+																<Flags>21</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>53</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+								</SourcePlugin>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Wwise Synth One_Square_01" ID="{C0B9915C-6D25-4968-AB65-CE5F35772872}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Synth_Drums" ID="{FD196231-851C-454A-805E-CB8E8D16AA30}" ShortID="837022621">
+							<PropertyList>
+								<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>25</Value>
+									</ValueList>
+								</Property>
+								<Property Name="MidiChannelFilter" Type="int32" Value="512"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-1200</Value>
+									</ValueList>
+								</Property>
+								<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{EF2200BA-4897-4035-A315-0A2AC4530651}" ShortID="108653909">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="MIDI note velocity" ID="{B618CC3D-04FA-4149-A36B-37B8A1F2B642}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{094BBD76-B4C4-4EBA-AC50-4A85A6BBC0E8}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>127</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80BE8EEB-3F19-43CD-9BCB-5157D976053A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SourcePlugin Name="Wwise Synth One_Drums" ID="{A0C47FA4-2720-4BDD-A306-129E3AE1AA00}" ShortID="558763484" PluginName="Wwise Synth One" CompanyID="0" PluginID="148">
+									<PropertyList>
+										<Property Name="BaseFrequency" Type="Real32" Value="20"/>
+										<Property Name="FrequencyMode" Type="int32" Value="1"/>
+										<Property Name="NoiseLevel" Type="Real32" Value="0"/>
+										<Property Name="Osc1Level" Type="Real32" Value="-96"/>
+										<Property Name="Osc1Pwm" Type="Real32" Value="75"/>
+										<Property Name="Osc1Waveform" Type="int32" Value="3"/>
+										<Property Name="Osc2Level" Type="Real32" Value="-96"/>
+										<Property Name="Osc2Pwm" Type="Real32" Value="33"/>
+										<Property Name="Osc2Waveform" Type="int32" Value="3"/>
+										<Property Name="OutputLevel" Type="Real32">
+											<RTPCList>
+												<RTPC Name="" ID="{E416C358-0B9B-4AE1-B0F6-E59CFC777B02}" ShortID="783756156">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Modulator Envelope_MIDI_Output_Volume" ID="{1D7E26D7-31BC-4E71-BEDA-3DEAD9AB4468}" WorkUnitID="{AE467873-27D1-4CEA-8778-0261C10F6323}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{5C01F085-3FBE-4803-87F8-FAE0AE9DB3AE}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-96</YPos>
+																<Flags>21</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>53</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+								</SourcePlugin>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Wwise Synth One_Drums" ID="{A0C47FA4-2720-4BDD-A306-129E3AE1AA00}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Synth_Square_02" ID="{DAB891BF-07C0-443D-90ED-DBC3345BEB54}" ShortID="254693346">
+							<PropertyList>
+								<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+								<Property Name="MidiChannelFilter" Type="int32" Value="2"/>
+								<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{000FA6D2-194E-484A-BEF4-D369BCDAB8DD}" ShortID="450961163">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="MIDI note velocity" ID="{B618CC3D-04FA-4149-A36B-37B8A1F2B642}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{8E0F9D30-07CA-4C12-A17F-A36E929F8FF6}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>127</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80BE8EEB-3F19-43CD-9BCB-5157D976053A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SourcePlugin Name="Wwise Synth One_Square_02" ID="{93C736C4-9E42-4A1E-8BD1-908B7FE9BC01}" ShortID="768201659" PluginName="Wwise Synth One" CompanyID="0" PluginID="148">
+									<PropertyList>
+										<Property Name="FmAmount" Type="Real32" Value="60"/>
+										<Property Name="FrequencyMode" Type="int32" Value="1"/>
+										<Property Name="Osc1Level" Type="Real32" Value="-7"/>
+										<Property Name="Osc1Pwm" Type="Real32" Value="99.9"/>
+										<Property Name="Osc1Waveform" Type="int32" Value="2"/>
+										<Property Name="Osc2Waveform" Type="int32" Value="2"/>
+										<Property Name="OutputLevel" Type="Real32">
+											<RTPCList>
+												<RTPC Name="" ID="{F9018136-5FCB-4165-A5BB-9B205F54C0B5}" ShortID="82473456">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<Custom CreatedFrom="{1D7E26D7-31BC-4E71-BEDA-3DEAD9AB4468}">
+																<ModulatorEnvelope Name="Modulator Envelope_MIDI_Output_Volume (Custom)" ID="{C334EBE6-2F7B-4F47-B822-BC3D6D3ED02F}" ShortID="733496144">
+																	<PropertyList>
+																		<Property Name="EnvelopeAttackCurve" Type="Real64" Value="10"/>
+																		<Property Name="EnvelopeAttackTime" Type="Real64" Value="0.02"/>
+																		<Property Name="EnvelopeDecayTime" Type="Real64" Value="0.5"/>
+																		<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0.2"/>
+																		<Property Name="EnvelopeSustainLevel" Type="Real64" Value="0.2"/>
+																		<Property Name="EnvelopeSustainTime" Type="Real64" Value="0.01"/>
+																	</PropertyList>
+																</ModulatorEnvelope>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{AA711197-69E5-44EB-B88E-F925A66AE4E7}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-96</YPos>
+																<Flags>21</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>53</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+								</SourcePlugin>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Wwise Synth One_Square_02" ID="{93C736C4-9E42-4A1E-8BD1-908B7FE9BC01}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Synth_Bass" ID="{45F554BC-DEEE-4A11-AF5E-59A76DECD654}" ShortID="552605493">
+							<PropertyList>
+								<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+								<Property Name="MidiChannelFilter" Type="int32" Value="4"/>
+								<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{EE26E557-928A-4239-A133-AFAABE13FB58}" ShortID="218334445">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="MIDI note velocity" ID="{B618CC3D-04FA-4149-A36B-37B8A1F2B642}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{C42198EF-6753-4C94-988B-5F3180344E57}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>127</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80BE8EEB-3F19-43CD-9BCB-5157D976053A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SourcePlugin Name="Wwise Synth One_Bass" ID="{85F73A12-A77E-444B-9C02-B8F2351D0433}" ShortID="1029574797" PluginName="Wwise Synth One" CompanyID="0" PluginID="148">
+									<PropertyList>
+										<Property Name="FmAmount" Type="Real32" Value="23.7"/>
+										<Property Name="FrequencyMode" Type="int32" Value="1"/>
+										<Property Name="Osc1Level" Type="Real32" Value="-1"/>
+										<Property Name="Osc2Level" Type="Real32" Value="2"/>
+										<Property Name="Osc2Waveform" Type="int32" Value="3"/>
+										<Property Name="OutputLevel" Type="Real32">
+											<RTPCList>
+												<RTPC Name="" ID="{52CD4156-8DAC-4612-8550-8914A63D4E4C}" ShortID="588952647">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<Custom CreatedFrom="{1D7E26D7-31BC-4E71-BEDA-3DEAD9AB4468}">
+																<ModulatorEnvelope Name="Modulator Envelope_MIDI_Output_Volume (Custom)" ID="{C8ADB75D-5135-4AC8-9DCC-03A769C23CA3}" ShortID="605876190">
+																	<PropertyList>
+																		<Property Name="EnvelopeAttackCurve" Type="Real64" Value="10"/>
+																		<Property Name="EnvelopeAttackTime" Type="Real64" Value="0.05"/>
+																		<Property Name="EnvelopeDecayTime" Type="Real64" Value="0.5"/>
+																		<Property Name="EnvelopeReleaseTime" Type="Real64" Value="1"/>
+																		<Property Name="EnvelopeSustainLevel" Type="Real64" Value="0.1"/>
+																		<Property Name="EnvelopeSustainTime" Type="Real64" Value="0.01"/>
+																	</PropertyList>
+																</ModulatorEnvelope>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{2630EFDE-F029-4D7C-B7CE-745622EF0107}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-96</YPos>
+																<Flags>21</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>53</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+								</SourcePlugin>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Wwise Synth One_Bass" ID="{85F73A12-A77E-444B-9C02-B8F2351D0433}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</BlendContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

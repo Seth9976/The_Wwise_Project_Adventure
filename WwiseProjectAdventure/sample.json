@@ -1,0 +1,23 @@
+{
+	"id": "WwiseProjectAdventure",	
+	"displayName": "The Wwise Project Adventure",	
+	"description": "A full project built from scratch with the guiding documentation of audio designer Damian Kastbauer.",
+	"imagePath": "WwiseProjectAdventure.png",
+	"wwiseProjectFilePath": "WwiseProjectAdventure.wproj",
+    "demos": [],
+	"documentation": [{
+        "language": "en",
+        "displayName": "View Handbook",
+        "filePath": "WwiseProjectAdventure_en.pdf"
+    },
+	{
+        "language": "ja",
+        "displayName": "View Handbook",
+        "filePath": "WwiseProjectAdventure_ja.pdf"
+    },
+	{
+        "language": "zh",
+        "displayName": "View Handbook",
+        "filePath": "WwiseProjectAdventure_zh.pdf"
+    }]
+}

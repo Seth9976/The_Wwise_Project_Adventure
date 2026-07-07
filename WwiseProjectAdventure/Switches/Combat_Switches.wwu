@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4D745D34-CAEF-4948-833B-56358A8D01B1}" SchemaVersion="85">
+	<Switches>
+		<WorkUnit Name="Combat_Switches" ID="{4D745D34-CAEF-4948-833B-56358A8D01B1}" PersistMode="Standalone">
+			<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Bay Area Sound, Inc.
+With the help of Damian Kastbauer for Lost Chocolate Lab.
+(c) 2012 Bay Area Sound, Inc.
+www.basound.com
+
+The Audio Content contained in this file is the property of Bay Area Sound, Inc.
+Your sole right with regard to this Audio Content is to listen to the Audio 
+Content as part of this Sample Project.  This Audio Content cannot be used
+or modified for a commercial purpose nor for public demonstration.</Comment>
+			<ChildrenList>
+				<SwitchGroup Name="Weapon_Type" ID="{D9821B0E-9436-42DA-9005-9E08A1150475}">
+					<ChildrenList>
+						<Switch Name="Axe" ID="{BC4F34E7-7386-4380-AC5C-24DE2EEB9577}"/>
+						<Switch Name="Sword" ID="{FB4B4D53-5FCA-4219-AA50-F5CE3CE8ED33}"/>
+						<Switch Name="Dagger" ID="{2CBDAEAA-F3DA-43BF-8A22-3D3ADBD5AE1A}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

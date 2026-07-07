@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E3B89148-9CBA-409F-BF4B-6ADC7F08BBDE}" SchemaVersion="85">
+	<AudioObjects>
+		<WorkUnit Name="Motion" ID="{E3B89148-9CBA-409F-BF4B-6ADC7F08BBDE}" PersistMode="Standalone">
+			<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Bay Area Sound, Inc.
+With the help of Damian Kastbauer for Lost Chocolate Lab.
+(c) 2012 Bay Area Sound, Inc.
+www.basound.com
+
+The Audio Content contained in this file is the property of Bay Area Sound, Inc.
+Your sole right with regard to this Audio Content is to listen to the Audio 
+Content as part of this Sample Project.  This Audio Content cannot be used
+or modified for a commercial purpose nor for public demonstration.</Comment>
+			<ChildrenList>
+				<Sound Name="thump" ID="{88CE6A49-FDD5-4931-B72B-A9B9EA2138DC}" ShortID="943117509">
+					<PropertyList>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+						<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Motion Bus" ID="{20A630BA-3398-4676-B927-1004DFE41FD8}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="Wwise Motion Generator" ID="{16EF850F-B26E-492F-B51D-423C1EED121D}" ShortID="259890482" PluginName="Wwise Motion Generator" CompanyID="0" PluginID="405">
+							<Language>SFX</Language>
+							<PluginData>
+	<CurveList Version="1">
+		<CurveInfo CurveType="Default1" CurveToUse="Custom">
+			<Curve Name="" ID="{804EC555-883D-4300-8D43-E276BA238247}">
+				<PropertyList>
+					<Property Name="Flags" Type="int32" Value="1"/>
+				</PropertyList>
+				<PointList>
+					<Point>
+						<XPos>0</XPos>
+						<YPos>1</YPos>
+						<Flags>5</Flags>
+					</Point>
+					<Point>
+						<XPos>1</XPos>
+						<YPos>0</YPos>
+						<Flags>37</Flags>
+					</Point>
+				</PointList>
+			</Curve>
+		</CurveInfo>
+		<CurveInfo CurveType="Default2" CurveToUse="Custom">
+			<Curve Name="" ID="{A679274A-F0AC-465B-B914-E31C0D491A37}">
+				<PropertyList>
+					<Property Name="Flags" Type="int32" Value="1"/>
+				</PropertyList>
+				<PointList>
+					<Point>
+						<XPos>0</XPos>
+						<YPos>1</YPos>
+						<Flags>5</Flags>
+					</Point>
+					<Point>
+						<XPos>1</XPos>
+						<YPos>0.27679</YPos>
+						<Flags>37</Flags>
+					</Point>
+				</PointList>
+			</Curve>
+		</CurveInfo>
+		<CurveInfo CurveType="Default Left Trigger" CurveToUse="Custom">
+			<Curve Name="" ID="{425A0459-BA1A-4AFA-8E1B-20ECEA309391}">
+				<PropertyList>
+					<Property Name="Flags" Type="int32" Value="1"/>
+				</PropertyList>
+				<PointList>
+					<Point>
+						<XPos>0</XPos>
+						<YPos>0</YPos>
+						<Flags>5</Flags>
+					</Point>
+					<Point>
+						<XPos>1</XPos>
+						<YPos>0</YPos>
+						<Flags>37</Flags>
+					</Point>
+				</PointList>
+			</Curve>
+		</CurveInfo>
+		<CurveInfo CurveType="Default Right Trigger" CurveToUse="Custom">
+			<Curve Name="" ID="{EEAEC240-907E-4AF3-9424-2D17D02EEB0A}">
+				<PropertyList>
+					<Property Name="Flags" Type="int32" Value="1"/>
+				</PropertyList>
+				<PointList>
+					<Point>
+						<XPos>0</XPos>
+						<YPos>0</YPos>
+						<Flags>5</Flags>
+					</Point>
+					<Point>
+						<XPos>1</XPos>
+						<YPos>0</YPos>
+						<Flags>37</Flags>
+					</Point>
+				</PointList>
+			</Curve>
+		</CurveInfo>
+		<CurveInfo CurveType="XboxOne Small" CurveToUse="Default1"/>
+		<CurveInfo CurveType="XboxOne Large" CurveToUse="Default1"/>
+		<CurveInfo CurveType="XboxOne Left Trigger" CurveToUse="Custom">
+			<Curve Name="" ID="{1FDA19E2-2FA9-4EEF-9EC2-0CA6CCAC4347}">
+				<PropertyList>
+					<Property Name="Flags" Type="int32" Value="1"/>
+				</PropertyList>
+				<PointList>
+					<Point>
+						<XPos>0</XPos>
+						<YPos>0</YPos>
+						<Flags>5</Flags>
+					</Point>
+					<Point>
+						<XPos>1</XPos>
+						<YPos>0</YPos>
+						<Flags>37</Flags>
+					</Point>
+				</PointList>
+			</Curve>
+		</CurveInfo>
+		<CurveInfo CurveType="XboxOne Right Trigger" CurveToUse="Custom">
+			<Curve Name="" ID="{084F2653-DEA8-476B-B594-70CB3B1E11F1}">
+				<PropertyList>
+					<Property Name="Flags" Type="int32" Value="1"/>
+				</PropertyList>
+				<PointList>
+					<Point>
+						<XPos>0</XPos>
+						<YPos>0</YPos>
+						<Flags>5</Flags>
+					</Point>
+					<Point>
+						<XPos>1</XPos>
+						<YPos>0</YPos>
+						<Flags>37</Flags>
+					</Point>
+				</PointList>
+			</Curve>
+		</CurveInfo>
+		<CurveInfo CurveType="PS4 Small" CurveToUse="Default1"/>
+		<CurveInfo CurveType="PS4 Large" CurveToUse="Default1"/>
+		<CurveInfo CurveType="Switch Small" CurveToUse="Default1"/>
+		<CurveInfo CurveType="Switch Large" CurveToUse="Default2"/>
+	</CurveList>
+</PluginData>
+						</SourcePlugin>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Wwise Motion Generator" ID="{16EF850F-B26E-492F-B51D-423C1EED121D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

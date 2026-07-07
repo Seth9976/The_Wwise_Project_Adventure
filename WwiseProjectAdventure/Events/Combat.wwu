@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AEC0B2B1-647F-4509-91DA-C6805759B4F6}" SchemaVersion="85">
+	<Events>
+		<WorkUnit Name="Combat" ID="{AEC0B2B1-647F-4509-91DA-C6805759B4F6}" PersistMode="Standalone">
+			<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Bay Area Sound, Inc.
+With the help of Damian Kastbauer for Lost Chocolate Lab.
+(c) 2012 Bay Area Sound, Inc.
+www.basound.com
+
+The Audio Content contained in this file is the property of Bay Area Sound, Inc.
+Your sole right with regard to this Audio Content is to listen to the Audio 
+Content as part of this Sample Project.  This Audio Content cannot be used
+or modified for a commercial purpose nor for public demonstration.</Comment>
+			<ChildrenList>
+				<Event Name="Play_Impact_Weapon_Type" ID="{1749950B-D5B0-40C6-9430-6F0D4F7A516E}">
+					<ChildrenList>
+						<Action Name="" ID="{E0E13C45-4DA9-4A91-8FF1-DB0AA0B43A0C}" ShortID="308196963">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Impact_Weapon_Type" ID="{B31BECE7-EFA3-41BB-98AF-C6D8871C22B6}" WorkUnitID="{7D23A1FA-0A50-41A7-83AE-882CBE337EFA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Swing_Weapon_Type" ID="{D6576080-A42D-4FBF-8B25-56C419BC2D7E}">
+					<ChildrenList>
+						<Action Name="" ID="{E1B2E86B-32F4-4DA3-8C5E-589664506F02}" ShortID="79415079">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Swing_Weapon_Type" ID="{32B411EB-AAC0-45B9-AAD2-A23B0006DDAE}" WorkUnitID="{7D23A1FA-0A50-41A7-83AE-882CBE337EFA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
